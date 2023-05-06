@@ -21,7 +21,7 @@
 				   <a class="nav-link" href="headerNav.php">Header</a>
 				 </li>
 				 <li class="nav-item">
-				   <a class="nav-link" href="#">HeaderMenu</a>
+				   <a class="nav-link" href="headerMenu.php">HeaderMenu</a>
 				 </li>
 				 <li class="nav-item">
 				   <a class="nav-link" href="#">MainMenu</a>
