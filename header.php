@@ -24,10 +24,10 @@
 				   <a class="nav-link" href="headerMenu.php">HeaderMenu</a>
 				 </li>
 				 <li class="nav-item">
-				   <a class="nav-link" href="#">MainMenu</a>
+				   <a class="nav-link" href="mainMenu.php">MainMenu</a>
 				 </li>
 				 <li class="nav-item">
-					<a class="nav-link" href="#">Information</a>
+					<a class="nav-link" href="information.php">Information</a>
 				 </li>
 				   <li class="nav-item">
 					<a class="nav-link" href="#">ProjectData</a>
