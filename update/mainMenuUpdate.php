@@ -75,7 +75,7 @@ if(mysqli_num_rows($result)>0){
   <div class="text-center col">
   <input type="hidden" name="id" value="<?=$id?>">	
   <button type="submit" class="btn btn-primary" name="submit">Submit</button> 
-  <button type="submit" class="btn btn-danger"><a href="../headerNav.php" class="text-light text-decoration-none">Go Back</a></button>
+  <button type="submit" class="btn btn-danger"><a href="../mainMenu.php" class="text-light text-decoration-none">Go Back</a></button>
 </div>
 </form>
 <!-- <?php
