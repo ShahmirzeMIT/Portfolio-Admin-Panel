@@ -9,6 +9,7 @@ if(mysqli_num_rows($result)>0){
 		$id=$row['id'];
 		$lang=$row['lang'];
 		$target=$row['target'];
+		$text=$row['text'];
 		$experience=$row['experience'];
 		$education=$row['education'];
 		$skill=$row['skill'];
@@ -37,6 +38,10 @@ if(mysqli_num_rows($result)>0){
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Target</label>
     <input type="text" class="form-control" id="exampleInputPassword1" value="<?=$target?>" name="target">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Text</label>
+    <input type="text" class="form-control" id="exampleInputPassword1" value="<?=$text?>" name="text">
   </div>
   <div class="mb-3 ">
     <label for="exampleInputPassword1" class="form-label">Experience</label>
@@ -73,6 +78,7 @@ if(isset($_POST['submit'])){
 	$id=$_POST['id'];
 	$lang=strtolower($_POST['lang']);
 	$target=$_POST['target'];
+	$text=$_POST['text'];
 	$experience=$_POST['experience'];
 	$education=$_POST['education'];
 	$skill=$_POST['skill'];

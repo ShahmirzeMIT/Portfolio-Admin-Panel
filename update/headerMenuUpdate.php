@@ -68,7 +68,5 @@ if(isset($_POST['submit'])){
 }
 
 ?>
-<!-- <div class="text-danger text-center fs-4"><?=$message?></div> -->
-
 </body>
 </html>

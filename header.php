@@ -72,10 +72,9 @@
 				   </a>
 				   <ul class="dropdown-menu">
 					<li><a class="dropdown-item" href="resume.php">Resume</a></li>
-					<li><a class="dropdown-item" href="#">Education</a></li>
-					<li><a class="dropdown-item" href="#">Experience</a></li>
-					<li><a class="dropdown-item" href="#">Skill1</a></li>
-					<li><a class="dropdown-item" href="#">Skill2</a></li>
+					<li><a class="dropdown-item" href="education.php">Education</a></li>
+					<li><a class="dropdown-item" href="experience.php">Experience</a></li>
+					<li><a class="dropdown-item" href="skill1.php">Skill1</a></li>
 				   </ul>
 				 </li>
 			    </ul>

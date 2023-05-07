@@ -1,4 +1,4 @@
-<!-- <?php 
+<?php 
 include("db.php");
 include("header.php"); 
 ?>
@@ -52,4 +52,4 @@ include("header.php");
 		</tbody>
 		</table>
 	</main>
-<?php include("footer.php") ;?> -->
+<?php include("footer.php") ;?> 

@@ -1,4 +1,4 @@
-<!-- <?php
+<?php
 include("../db.php");
 $message="";
 if(isset($_POST['lang']) && isset($_POST['title']) && isset($_POST['name']) && isset($_POST['email'])&& isset($_POST['help']) && isset($_POST['send']) && isset($_POST['status']) ){
@@ -71,4 +71,4 @@ if(isset($_POST['lang']) && isset($_POST['title']) && isset($_POST['name']) && i
 <div class="text-danger text-center fs-4"><?=$message?></div>
 
 </body>
-</html> -->
+</html>

@@ -10,6 +10,7 @@ include("header.php");
 			<th scope="col">id</th>
 			<th scope="col">lang</th>
 			<th scope="col">target</th>
+			<th scope="col">text</th>
 			<th scope="col">experience</th>
 			<th scope="col">education</th>
 			<th scope="col">skill</th>
@@ -27,6 +28,7 @@ include("header.php");
 						$id=$row['id'];
 						$lang=$row['lang'];
 						$target=$row['target'];
+						$text=$row['text'];
 						$experience=$row['experience'];
 						$education=$row['education'];
 						$skill=$row['skill'];
@@ -37,6 +39,7 @@ include("header.php");
 							<th scope="row">'.$id.'</th>
 							<td>'.$lang.'</td>
 							<td>'.$target.'</td>
+							<td>'.$text.'</td>
 							<td>'.$experience.'</td>
 							<td>'.$education.'</td>
 							<td>'.$skill.'</td>

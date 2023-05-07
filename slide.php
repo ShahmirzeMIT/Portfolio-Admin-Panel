@@ -18,7 +18,7 @@ include("header.php");
 		</tr>
 		</thead>
 		<tbody>
-		<!-- <?php
+		<?php
 			$sql='SELECT * FROM `slide`';
 			$result=mysqli_query($conn,$sql);
 			if(mysqli_num_rows($result)>0){
@@ -26,23 +26,25 @@ include("header.php");
 					$id=$row['id'];
 					$lang=$row['lang'];
 					$text=$row['text'];
-					$iamge=$row['src'];
+					$image=$row['src'];
 					$fullName=$row['fullName'];
 					$workplace=$row['workplace'];
 					$status=$row['status'];
-					echo '
+					echo'
 						<tr>
 							<th scope="row">'.$id.'</th>
 							<td>'.$lang.'</td>
-							<td>'.$target.'</td>
 							<td>'.$text.'</td>
+							<td> <img src="image/'.$image.'" /></td>
+							<td>'.$fullName.'</td>
+							<td>'.$workplace.'</td>
 							<td>'.$status.'</td>
-							<td><a href="./update/sliderUpdate.php?id='.$id.'" class="px-3 "><i class="fa-solid fa-pen-to-square text-success"></i></a></td>
+							<td><a href="./update/slideUpdate.php?id='.$id.'" class="px-3 "><i class="fa-solid fa-pen-to-square text-success"></i></a></td>
 						</tr>
 						';
 				}
 			}
-		?> -->
+		?>
 		</tbody>
 		</table>	
 	</main>
