@@ -49,10 +49,10 @@
 					<a class="nav-link" href="hire.php">Hire</a>
 				 </li>
 				 <li class="nav-item">
-					<a class="nav-link" href="#">Question</a>
+					<a class="nav-link" href="question.php">Question</a>
 				 </li>
 				 <li class="nav-item">
-					<a class="nav-link" href="#">QuestionMenu</a>
+					<a class="nav-link" href="questionMenu.php">QuestionMenu</a>
 				 </li>
 				 <li class="nav-item">
 					<a class="nav-link" href="#">SliderTarget</a>
