@@ -40,12 +40,13 @@
 						Portfolio
 					</a>
 					<ul class="dropdown-menu">
-					  <li><a class="dropdown-item" href="#">Menu</a></li>
+					<li><a class="dropdown-item" href="portfolio.php">Portfolio</a></li>
+					  <li><a class="dropdown-item" href="menu.php">Menu</a></li>
 					  <li><a class="dropdown-item" href="#">Image</a></li>
 					</ul>
 				</li>
 				 <li class="nav-item">
-					<a class="nav-link" href="#">Laptop</a>
+					<a class="nav-link" href="hire.php">Hire</a>
 				 </li>
 				 <li class="nav-item">
 					<a class="nav-link" href="#">Question</a>
