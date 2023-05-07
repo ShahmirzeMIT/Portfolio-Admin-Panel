@@ -7,10 +7,10 @@ $target=$_POST['target'];
 $text=$_POST['text'];
 $status=$_POST['status'];
 	if($lang!=="" && $target!=="" && $text!=="" && $status!==""){
-		$sql='SELECT * FROM `question` WHERE `lang`="'.$lang.'"';
+		$sql='SELECT * FROM `slidertitle` WHERE `lang`="'.$lang.'"';
 		$result=mysqli_query($conn,$sql);
 		if(mysqli_num_rows($result)<=0){
-			$sql='INSERT INTO `question`(`id`, `lang`, `target`, `text`, `status`) VALUES (NULL,"'.$lang.'","'.$target.'","'.$text.'","'.$status.'")';
+			$sql='INSERT INTO `slidertitle`(`id`, `lang`, `target`, `text`, `status`) VALUES (NULL,"'.$lang.'","'.$target.'","'.$text.'","'.$status.'")';
 			$result=mysqli_query($conn,$sql);
 		}
 		else $message="Dil Artiq Istifade Olunub";
@@ -53,7 +53,7 @@ $status=$_POST['status'];
     <label class="btn btn-outline-danger" for="danger-outlined">False</label>
   </div>
   <div class="text-center col"><button type="submit" class="btn btn-primary">Submit</button>
-   <button type="submit" class="btn btn-danger"><a href="../question.php" class="text-light text-decoration-none">Go Back</a></button></div>
+   <button type="submit" class="btn btn-danger"><a href="../sliderTitle.php" class="text-light text-decoration-none">Go Back</a></button></div>
 </form>
 <div class="text-danger text-center fs-4"><?=$message?></div>
 

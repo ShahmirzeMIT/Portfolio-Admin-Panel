@@ -48,7 +48,7 @@ if(mysqli_num_rows($result)>0){
 </form>
 <?php
 	if(isset($_POST['submit'])){
-		$id=$_POST['id'];
+		$id=strtolower($_POST['id']);
 		$lang=$_POST['lang'];
 		$name=$_POST['name'];
 		$status=$_POST['status'];

@@ -1,7 +1,7 @@
 <?php include("../db.php");
 $message="";
 if(isset($_POST['lang']) && isset($_POST['menu']) && isset($_POST['menuId']) && isset($_POST['status'])){
-	$lang=$_POST['lang'];
+	$lang=strtolower($_POST['lang']);
 	$menu=$_POST['menu'];
 	$menuId=$_POST['menuId'];
 	$status=$_POST['status'];

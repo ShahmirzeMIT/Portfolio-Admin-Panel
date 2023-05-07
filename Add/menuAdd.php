@@ -2,7 +2,7 @@
 include('../db.php');
 $message="";
 if(isset($_POST['lang'])  &&isset($_POST['name']) && isset($_POST['status']) ){
-$lang=$_POST['lang'];
+$lang=strtolower($_POST['lang']);
 $name=$_POST['name'];
 $status=$_POST['status'];
 	if($lang!==""  && $name!=="" && $status!==""){

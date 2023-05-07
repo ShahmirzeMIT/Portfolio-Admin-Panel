@@ -78,7 +78,6 @@ if(mysqli_num_rows($result)>0){
 </div>
 </form>
 <?php
-$salam="salam";
 
 if(isset($_POST['submit'])){
 	$id=$_POST["id"];
@@ -100,7 +99,6 @@ if(isset($_POST['submit'])){
 }
 
 ?>
-<!-- <div class="text-danger text-center fs-4"><?=$message?></div> -->
 
 </body>
 </html>

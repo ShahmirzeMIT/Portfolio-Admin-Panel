@@ -1,18 +1,18 @@
-<?php include("../db.php");
+<?php
+include('../db.php');
 $sentId=$_GET['id'];
-$sql='SELECT * FROM `headermenu` WHERE `id`="'.$sentId.'"';
-$result=mysqli_query($conn,$sql);
+ $sql='SELECT * FROM `slidertitle` WHERE `id`="'.$sentId.'"';
+ $result=mysqli_query($conn,$sql);
 if(mysqli_num_rows($result)>0){
-	while($row=mysqli_fetch_assoc($result)){
+	while ($row=mysqli_fetch_assoc($result)) {
 		$id=$row['id'];
-		$lang=strtolower($row['lang']);
-		$menu=$row['menu'];
-		$menuId=$row['menuId'];
+		$lang=$row['lang'];
+		$target=$row['target'];
+		$text=$row['text'];
 		$status=$row['status'];
 	}
 }
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -31,12 +31,12 @@ if(mysqli_num_rows($result)>0){
     <input type="text" class="form-control" id="exampleInputEmail1" name="lang" value="<?=$lang?>" maxlength="5">
   </div>
   <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Menu</label>
-    <input type="text" class="form-control" id="exampleInputPassword1" value="<?=$menu?>" name="menu">
+    <label for="exampleInputPassword1" class="form-label">Target</label>
+    <input type="text" class="form-control" id="exampleInputPassword1" value="<?=$target?>" name="target">
   </div>
   <div class="mb-3 ">
-    <label for="exampleInputPassword1" class="form-label">MenuId</label>
-    <input type="text" class="form-control" id="exampleInputPassword1"  value="<?=$menuId?>"name="menuId">
+    <label for="exampleInputPassword1" class="form-label">Text</label>
+    <input type="text" class="form-control" id="exampleInputPassword1"  value="<?=$text?>"name="text">
   </div>
  
   <div class="mb-3">
@@ -49,26 +49,22 @@ if(mysqli_num_rows($result)>0){
   </div>
   <div class="text-center col">
   	<input type="hidden" name="id" value="<?=$id?>">	
-	<button type="submit" name="submit" class="btn btn-primary">Submit</button> <button type="submit" class="btn btn-danger"><a href="../headerMenu.php" class="text-light text-decoration-none">Go Back</a></button></div>
+	<button type="submit" name="submit" class="btn btn-primary">Submit</button>
+	 <button type="submit" class="btn btn-danger"><a href="../sliderTitle.php" class="text-light text-decoration-none">Go Back</a></button></div>
 </form>
 <?php
-
-if(isset($_POST['submit'])){
-	$id=$_POST['id'];
-	$lang=strtolower($_POST['lang']);
-	$menu=$_POST['menu'];
-	$menuId=$_POST['menuId'];
-	$status=$_POST['status'];
-	echo $id;
-	$sql='UPDATE `headermenu` SET `lang`="'.$lang.'",`menu`="'.$menu.'",`menuId`="'.$menuId.'",`status`="'.$status.'" WHERE `id`="'.$id.'"';
-	$result=mysqli_query($conn,$sql);
-	if($result>0){
-			header("Location: ../headerMenu.php");
+	if(isset($_POST['submit'])){
+		$id=$_POST['id'];
+		$lang=strtolower($_POST['lang']);
+		$target=$_POST['target'];
+		$text=$_POST['text'];
+		$status=$_POST['status'];
+		$sql='UPDATE `slidertitle` SET `lang`="'.$lang.'",`target`="'.$target.'",`text`="'.$text.'",`status`="'.$status.'" WHERE `id`="'.$id.'"';
+		$result=mysqli_query($conn,$sql);
+		if($result>0){
+		 	header("Location: ../sliderTitle.php");
+		}
 	}
-}
-
 ?>
-<!-- <div class="text-danger text-center fs-4"><?=$message?></div> -->
-
 </body>
 </html>

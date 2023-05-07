@@ -55,22 +55,23 @@
 					<a class="nav-link" href="questionMenu.php">QuestionMenu</a>
 				 </li>
 				 <li class="nav-item">
-					<a class="nav-link" href="#">SliderTarget</a>
+					<a class="nav-link" href="sliderTitle.php">SliderTitle</a>
 				 </li>
 				 <li class="nav-item">
-					<a class="nav-link" href="#">Slide</a>
+					<a class="nav-link" href="slide.php">Slide</a>
 				 </li>
 				 <li class="nav-item">
-					<a class="nav-link" href="#">Contact1</a>
+					<a class="nav-link" href="contact1.php">Contact1</a>
 				 </li>
 				 <li class="nav-item">
-					<a class="nav-link" href="#">Contact2</a>
+					<a class="nav-link" href="contact2.php">Contact2</a>
 				 </li>
 				 <li class="nav-item dropdown">
 				   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 					Resume
 				   </a>
 				   <ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="resume.php">Resume</a></li>
 					<li><a class="dropdown-item" href="#">Education</a></li>
 					<li><a class="dropdown-item" href="#">Experience</a></li>
 					<li><a class="dropdown-item" href="#">Skill1</a></li>

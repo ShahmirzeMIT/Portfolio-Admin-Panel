@@ -2,7 +2,7 @@
 include('../db.php');
 $message="";
 if(isset($_POST['lang']) && isset($_POST['name']) && isset($_POST['work']) &&  isset($_POST['experience']) && isset($_POST['years']) && isset($_POST['aboutMe']) && isset($_POST['call']) && isset($_POST['know']) &&  isset($_POST['status'])){
-$lang=$_POST['lang'];
+$lang=strtolower($_POST['lang']);
 $name=$_POST['name'];
 $work=$_POST['work'];
 $experience=$_POST['experience'];

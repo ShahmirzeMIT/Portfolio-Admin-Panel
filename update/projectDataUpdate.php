@@ -54,7 +54,7 @@ if(mysqli_num_rows($result)>0){
 <?php
 	if(isset($_POST['submit'])){
 		$id=$_POST['id'];
-		$lang=$_POST['lang'];
+		$lang=strtolower($_POST['lang']);
 		$target=$_POST['target'];
 		$text=$_POST['text'];
 		$status=$_POST['status'];
