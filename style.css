@@ -27,6 +27,10 @@ background-color: black;
 	display: flex;
 	flex-wrap: wrap;
 }
+.slideImg{
+	width: 284px !important;
+	object-fit: contain !important;
+	height: 250px !important;}
 .flexAdd div{
 	width: 30%;
 	margin: 0 1em;

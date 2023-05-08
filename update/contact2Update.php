@@ -5,6 +5,7 @@ $sql='SELECT * FROM `contact2` WHERE  `id`="'.$sentId.'"';
 $result=mysqli_query($conn,$sql);
 if(mysqli_num_rows($result)>0){
 	while($row=mysqli_fetch_assoc($result)){
+    $id=$row['id'];
 		$lang=$row['lang'];
     $title=$row['title'];
     $uName=$row['name'];
@@ -37,7 +38,7 @@ if(mysqli_num_rows($result)>0){
   </div>
   <div class="mb-3 ">
     <label for="exampleInputPassword1" class="form-label">Name</label>
-    <input type="text" class="form-control" id="exampleInputPassword1" value="<?=$uName?>" name="uname">
+    <input type="text" class="form-control" id="exampleInputPassword1" value="<?=$uName?>" name="name">
   </div>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Email</label>
@@ -67,23 +68,22 @@ if(mysqli_num_rows($result)>0){
 <?php
 
 if(isset($_POST['submit'])){
-	$id=$_POST['id'];
-	$lang=strtolower($_POST['lang']);
-  $title=$_POST['title'];
-  $uName=$_POST['uName'];
-  $email=$_POST['email'];
-  $help=$_POST['help'];
-  $send=$_POST['send'];
-	$status=$_POST['status'];
-  echo $email .".<hr>.";
-  echo $help .".<hr>.";
-  echo $send .".<hr>.";
-  $sql2='UPDATE `contact2` SET `lang`="'.$lang.'",`title`="'.$title.'",`name`="'.$uName.'",`email`="'.$email.'",`help`="'.$help.'",`send`="'.$send.'",`status`="'.$status.'" WHERE `id`="'.$id.'"';
+	$id2=$_POST['id'];
+	$lang2=strtolower($_POST['lang']);
+  $title2=$_POST['title'];
+  $name2=$_POST['name'];
+  $email2=$_POST['email'];
+  $help2=$_POST['help'];
+  $send2=$_POST['send'];
+	$status2=$_POST['status'];
+  
+  $sql2='UPDATE `contact2` SET `lang`="'.$lang2.'",`title`="'.$title2.'",`name`="'.$name2.'",`email`="'.$email2.'",`help`="'.$help2.'",`send`="'.$send2.'",`status`="'.$status2.'" WHERE `id`="'.$id2.'"';
 	$result=mysqli_query($conn,$sql2);
-	if($result>0){
-		  // header("Location: ../contact2.php");
+	if($result>=0){
+		header("Location: ../contact2.php");
+	} else {
+		echo "Error updating record: " . mysqli_error($conn);
 	}
-
 }
 
 ?>

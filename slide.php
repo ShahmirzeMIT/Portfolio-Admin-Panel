@@ -35,7 +35,9 @@ include("header.php");
 							<th scope="row">'.$id.'</th>
 							<td>'.$lang.'</td>
 							<td>'.$text.'</td>
-							<td> <img src="image/'.$image.'" /></td>
+							<td> <img src="image/'.$image.'" style="width: 284px !important;
+								object-fit: contain !important;
+								height: 250px !important;" /></td>
 							<td>'.$fullName.'</td>
 							<td>'.$workplace.'</td>
 							<td>'.$status.'</td>

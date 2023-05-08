@@ -1,5 +1,7 @@
-<?php include("../db.php");
+<?php 
+include("../db.php");
 $sentId=$_GET['id'];
+$oldImage='';
 $sql='SELECT * FROM `slide` WHERE `id`="'.$sentId.'"';
 $result=mysqli_query($conn,$sql);
 if(mysqli_num_rows($result)>0){
@@ -11,6 +13,7 @@ if(mysqli_num_rows($result)>0){
 		$fullName=$row['fullName'];
 		$workplace=$row['workplace'];
 		$status=$row['status'];
+		$oldImage=$row['src'];
 	}
 }
 ?>
@@ -37,7 +40,9 @@ if(mysqli_num_rows($result)>0){
     <input type="text" class="form-control" id="exampleInputPassword1" name="text" value="<?=$text?>">
   </div>
   <div class="input-group mb-3 text-center">
- 	 <img src="../image/<?=$image?>" class="rounded mx-auto d-block"/>
+ 	 <img src="../image/<?=$image?>" class="rounded mx-auto d-block" style="width: 284px !important;
+								object-fit: contain !important;
+								height: 250px !important;"  />
 	 <input type="hidden" name="cimage" value="<?=$image?>">
 	</div>
   <div class="input-group mb-3">
@@ -61,9 +66,10 @@ if(mysqli_num_rows($result)>0){
     <input type="radio" class="btn-check"  id="danger-outlined" autocomplete="off" name="status" value="0">
     <label class="btn btn-outline-danger" for="danger-outlined">False</label>
   </div>
-  <div class="text-center col"><button type="submit" class="btn btn-primary">Submit</button> <button type="submit" class="btn btn-danger"><a href="../slide.php" class="text-light text-decoration-none">Go Back</a></button></div>
+  <div class="text-center col"><button type="submit" class="btn btn-primary"name="submit">Submit</button>
+   <button type="submit" class="btn btn-danger"><a href="../slide.php" class="text-light text-decoration-none">Go Back</a></button></div>
 </form>
-<!-- <?php
+ <?php
 
 if(isset($_POST['submit'])){
 		$lang=strtolower($_POST['lang']);	
@@ -71,27 +77,36 @@ if(isset($_POST['submit'])){
 		$fullName=$_POST['fullName'];	
 		$workplace=$_POST['workplace'];	
 		$status=$_POST['status'];
-		$cimage=$_POST['cimage'];
-		echo $cimage;
-		$temp=$_FILES["file"]["tmp_name"];
-		$name=$_FILES["file"]["name"];
-		$path="../image/" .$name;
-		$size=$_FILES["file"]["size"];
-		$type=strtolower(pathinfo($path, PATHINFO_EXTENSION));
-		$ok=1;
-		$check=getimagesize($temp);
-		if($check == false  || file_exists($path) || $size > 500000 ) $ok=0;
-		// if ($ok)
-		// 	move_uploaded_file($temp, $path);
-		// 	$sql='UPDATE `slide` SET `lang`="'.$lang.'",`text`="'.$text.'",`src`="'.$name.'",`fullName`="'.$fullName.'",`workplace`="'.$workplace.'",`status`="'.$status.'" WHERE `id`="'.$id.'"';
-		// 	$result=mysqli_query($conn,$sql);
-		// 	if($result>0){
-		// 		header("Location: ../slide.php");
-		// }
-		 
-	
-	
+		$file=$_FILES['file'];
+		if(isset($file) && $_FILES["file"]["name"]!=="" ){
+			$temp=$_FILES["file"]["tmp_name"];
+			$name=$_FILES["file"]["name"];
+			$path="../image/" .$name;
+			$size=$_FILES["file"]["size"];
+			$type=strtolower(pathinfo($path, PATHINFO_EXTENSION));
+			unlink("../image/".$oldImage."");
+			move_uploaded_file($temp,"../image/".$name."");
+			$ok=1;
+			$check=getimagesize($temp);
+			if($check == false  || file_exists($path) || $size > 500000 ) $ok=0;
+			if ($ok)
+				move_uploaded_file($temp, $path);
+				$sql='UPDATE `slide` SET `lang`="'.$lang.'",`text`="'.$text.'",`src`="'.$name.'",`fullName`="'.$fullName.'",`workplace`="'.$workplace.'",`status`="'.$status.'" WHERE `id`="'.$id.'"';
+				$result=mysqli_query($conn,$sql);
+				if($result>0){
+					header("Location: ../slide.php");
+				}
+			
+		}
+		else{
+			$sql='UPDATE `slide` SET `lang`="'.$lang.'",`text`="'.$text.'",`fullName`="'.$fullName.'",`workplace`="'.$workplace.'",`status`="'.$status.'" WHERE `id`="'.$id.'"';
+			$result=mysqli_query($conn,$sql);
+			if($result>0){
+				header("Location: ../slide.php");
+			}
+		}
+		
 }
-?> -->
+?> 
 </body>
 </html>
