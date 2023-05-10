@@ -34,7 +34,7 @@ include('header.php');
 							<td>'.$az.'</td>
 							<td>'.$en.'</td>
 							<td>'.$ru.'</td>
-							<td><a href="./update/headerMenuUpdate.php?id='.$id.'" class="px-3 "><i class="fa-solid fa-pen-to-square text-success"></i></a></td>
+							<td><a href="./update/translationUpdate.php?id='.$id.'" class="px-3 "><i class="fa-solid fa-pen-to-square text-success"></i></a></td>
 						</tr>
 						';
 					}

@@ -29,9 +29,9 @@ include('header.php');
 						<tr>
 							<th scope="row">'.$id.'</th>
 							<td>'.$name.'</td>
-							<td><img src="image/'.$src.'"/></td>
+							<td><img src="image/'.$src.'" style="width:300px; height:300px;object-fit: contain;margin: 0 auto !important;"/></td>
 							<td>'.$text.'</td>
-							<td>'.$workplace.'</td>
+							<td>'.$workplace.'</td><td><a href="./update/slideUpdate.php?id='.$id.'" class="px-3 "><i class="fa-solid fa-pen-to-square text-success"></i></a></td>
 						</tr>
 						';
 					}
