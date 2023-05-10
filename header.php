@@ -27,7 +27,7 @@
 				   <a class="nav-link" href="headerMenu.php">HaederMenu</a>
 				 </li>
 				 <li class="nav-item">
-					<a class="nav-link" href="">Information</a>
+					<a class="nav-link" href="skill.php">Skill</a>
 				 </li>
 				   <li class="nav-item">
 					<a class="nav-link" href="">ProjectData</a>
