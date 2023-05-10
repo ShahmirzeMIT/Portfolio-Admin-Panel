@@ -30,7 +30,7 @@
 					<a class="nav-link" href="skill.php">Skill</a>
 				 </li>
 				   <li class="nav-item">
-					<a class="nav-link" href="">ProjectData</a>
+					<a class="nav-link" href="question.php">Question</a>
 				  </li>
 		
 			    </ul>
