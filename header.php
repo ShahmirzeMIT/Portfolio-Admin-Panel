@@ -32,7 +32,10 @@
 				   <li class="nav-item">
 					<a class="nav-link" href="question.php">Question</a>
 				  </li>
-		
+				  </li>
+				   <li class="nav-item">
+					<a class="nav-link" href="slide.php">Slide</a>
+				  </li>
 			    </ul>
 			  </div>
 			</div>
