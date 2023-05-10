@@ -15,68 +15,24 @@
 				<span class="navbar-toggler-icon"></span>
 			   </button>
 			<div class="container-fluid">
-			  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-			    <ul class="navbar-nav">
+			  <div class="collapse navbar-collapse " id="navbarNavDropdown">
+			    <ul class="navbar-nav d-flex justify-content-between" style="width:100%">
 				 <li class="nav-item">
-				   <a class="nav-link" href="headerNav.php">Header</a>
+				   <a class="nav-link" href="translation.php">Translation</a>
 				 </li>
 				 <li class="nav-item">
-				   <a class="nav-link" href="headerMenu.php">HeaderMenu</a>
+				   <a class="nav-link" href="experience.php">Experince</a>
 				 </li>
 				 <li class="nav-item">
-				   <a class="nav-link" href="mainMenu.php">MainMenu</a>
+				   <a class="nav-link" href="headerMenu.php">HaederMenu</a>
 				 </li>
 				 <li class="nav-item">
-					<a class="nav-link" href="information.php">Information</a>
+					<a class="nav-link" href="">Information</a>
 				 </li>
 				   <li class="nav-item">
-					<a class="nav-link" href="projectData.php">ProjectData</a>
+					<a class="nav-link" href="">ProjectData</a>
 				  </li>
-				 <li class="nav-item">
-					<a class="nav-link" href="project.php">Project</a>
-				 </li>
-				 <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-						Portfolio
-					</a>
-					<ul class="dropdown-menu">
-					<li><a class="dropdown-item" href="portfolio.php">Portfolio</a></li>
-					  <li><a class="dropdown-item" href="menu.php">Menu</a></li>
-					  <li><a class="dropdown-item" href="#">Image</a></li>
-					</ul>
-				</li>
-				 <li class="nav-item">
-					<a class="nav-link" href="hire.php">Hire</a>
-				 </li>
-				 <li class="nav-item">
-					<a class="nav-link" href="question.php">Question</a>
-				 </li>
-				 <li class="nav-item">
-					<a class="nav-link" href="questionMenu.php">QuestionMenu</a>
-				 </li>
-				 <li class="nav-item">
-					<a class="nav-link" href="sliderTitle.php">SliderTitle</a>
-				 </li>
-				 <li class="nav-item">
-					<a class="nav-link" href="slide.php">Slide</a>
-				 </li>
-				 <li class="nav-item">
-					<a class="nav-link" href="contact1.php">Contact1</a>
-				 </li>
-				 <li class="nav-item">
-					<a class="nav-link" href="contact2.php">Contact2</a>
-				 </li>
-				 <li class="nav-item dropdown">
-				   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-					Resume
-				   </a>
-				   <ul class="dropdown-menu">
-					<li><a class="dropdown-item" href="resume.php">Resume</a></li>
-					<li><a class="dropdown-item" href="education.php">Education</a></li>
-					<li><a class="dropdown-item" href="experience.php">Experience</a></li>
-					<li><a class="dropdown-item" href="skill1.php">Skill1</a></li>
-				   </ul>
-				 </li>
+		
 			    </ul>
 			  </div>
 			</div>
