@@ -21,7 +21,7 @@
 				   <a class="nav-link" href="translation.php">Translation</a>
 				 </li>
 				 <li class="nav-item">
-				   <a class="nav-link" href="experience.php">Experince</a>
+				   <a class="nav-link" href="experience.php">Education</a>
 				 </li>
 				 <li class="nav-item">
 				   <a class="nav-link" href="headerMenu.php">HaederMenu</a>
@@ -35,6 +35,9 @@
 				  </li>
 				   <li class="nav-item">
 					<a class="nav-link" href="slide.php">Slide</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="portfolioImage.php">Image</a>
 				  </li>
 			    </ul>
 			  </div>
