@@ -18,6 +18,7 @@ $name=$_SESSION['name'];
 			</div>
 		</div>
 		</main>
+		<script src="app.js"></script>
 <?php include('footer.php')?>
 	
 	

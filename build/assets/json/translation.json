@@ -1,0 +1,576 @@
+[
+    {
+        "id": "1",
+        "name": "eduName",
+        "az": "Azərbaycan Memarlıq və İnşaat Universiteti",
+        "en": "Azerbaijan Architecture and Construction University",
+        "ru": "Азербайджанский Архитектурно-Строительный Университет"
+    },
+    {
+        "id": "2",
+        "name": "eduSpecialty",
+        "az": "İnformasiya texnologiyaları",
+        "en": "Information Technology",
+        "ru": "Информационные технологии"
+    },
+    {
+        "id": "3",
+        "name": "eduDescription",
+        "az": "Men Oxudugum Unini Cox sevirem",
+        "en": "i like what i read",
+        "ru": "мне нравится то, что я читаю"
+    },
+    {
+        "id": "4",
+        "name": "headMessage",
+        "az": "SALAM, MƏN FREELANSERƏM",
+        "en": "HI, I'M A FREELANCER",
+        "ru": "ПРИВЕТ, Я ФРИЛАНСЕР"
+    },
+    {
+        "id": "5",
+        "name": "headType1",
+        "az": "DİZAYNER",
+        "en": "DESIGNER",
+        "ru": "ДИЗАЙНЕР"
+    },
+    {
+        "id": "6",
+        "name": "headType2",
+        "az": "DEVELOPER",
+        "en": "DEVELOPER",
+        "ru": "РАЗРАБОТЧИК"
+    },
+    {
+        "id": "7",
+        "name": "headType3",
+        "az": "CALLUM",
+        "en": "CALLUM",
+        "ru": "КАЛЛУМ"
+    },
+    {
+        "id": "8",
+        "name": "headLocation",
+        "az": "Bakı, Azərbaycan",
+        "en": "based in Baku, Azerbaijan",
+        "ru": "базируется в Баку, Азербайджан"
+    },
+    {
+        "id": "9",
+        "name": "headWork",
+        "az": "Mənim İşlərimə Bax",
+        "en": "Veiw my Works",
+        "ru": "Посмотреть мои работы"
+    },
+    {
+        "id": "10",
+        "name": "slagHome",
+        "az": "Ev",
+        "en": "Home",
+        "ru": "Дом"
+    },
+    {
+        "id": "11",
+        "name": "slagAbout",
+        "az": "Haqqimizda",
+        "en": "About",
+        "ru": "О нас"
+    },
+    {
+        "id": "12",
+        "name": "slagMenu",
+        "az": "Nə edirem",
+        "en": "What I do",
+        "ru": "Что я делаю"
+    },
+    {
+        "id": "13",
+        "name": "slagResume",
+        "az": "CV",
+        "en": "Resume",
+        "ru": "Резюме"
+    },
+    {
+        "id": "14",
+        "name": "slagPortofilo",
+        "az": "Portofilo",
+        "en": "Portofilo",
+        "ru": "портфолио"
+    },
+    {
+        "id": "15",
+        "name": "slagFaq",
+        "az": "FAQ",
+        "en": "FAQ",
+        "ru": "ЧЗВ"
+    },
+    {
+        "id": "16",
+        "name": "slagClient",
+        "az": "Müştəri danışın",
+        "en": "Client Speak",
+        "ru": "Клиент говорит"
+    },
+    {
+        "id": "17",
+        "name": "slagContact",
+        "az": "Mənimlə əlaqə saxlayın",
+        "en": "Contact Me",
+        "ru": "Свяжитесь со мной"
+    },
+    {
+        "id": "18",
+        "name": "mainCall",
+        "az": "Salam Mən",
+        "en": "Hello, I am",
+        "ru": "Здравствуйте, я"
+    },
+    {
+        "id": "19",
+        "name": "mainName",
+        "az": "Şahmirzə Məmmədyarlı",
+        "en": "Shahmirze Mammadyarli",
+        "ru": "Шахмирзе Мамедъярлы"
+    },
+    {
+        "id": "20",
+        "name": "mainWork",
+        "az": "Mən veb dizayna həvəsi olan dizayner və tərtibatçıyam. Mən son istifadəçiyə real dəyər verən sadə, təmiz və hamar vebsaytlar hazırlamaqdan həzz alıram. Mənimlə işləyərkən minlərlə müştəri müstəsna nəticələr əldə etdi. Müştərinin tələblərinə cavab verən işlərin vaxtında və büdcə daxilində çatdırılması bizim motodur",
+        "en": "I am a designer and developer with a passion for web design. I enjoy developing simple, clean and sleek websites that provide real value to the end user. Thousands of clients have achieved exceptional results while working with me. Delivering work that meets the client's requirements on time and within budget is our motto",
+        "ru": "Я дизайнер и разработчик со страстью к веб-дизайну. Мне нравится разрабатывать простые, чистые и стильные веб-сайты, которые представляют реальную ценность для конечного пользователя. Тысячи клиентов добились выдающихся результатов, работая со мной. Выполнение работ, соответствующих требованиям клиента, в срок и в рамках бюджета — наш девиз."
+    },
+    {
+        "id": "21",
+        "name": "mainExperience",
+        "az": "Təcrübə",
+        "en": "Experience",
+        "ru": "Опыт"
+    },
+    {
+        "id": "22",
+        "name": "mainYears",
+        "az": "İl",
+        "en": "Year",
+        "ru": "Год"
+    },
+    {
+        "id": "23",
+        "name": "eduCourse",
+        "az": "Full Stack Developer(HTML and CSS ,JAVASCIRPT , PHP)",
+        "en": "Full Stack Developer(HTML and CSS ,JAVASCIRPT , PHP)",
+        "ru": "Full Stack Разработчик (HTML и CSS, JAVASCRIPT, PHP)"
+    },
+    {
+        "id": "24",
+        "name": "eduCompany",
+        "az": "Sənaye və İnnovasiyalar üzrə Bakı Dövlət Peşə Təhsil Mərkəzi",
+        "en": "Baku State Vocational Education Center for Industry and Innovation",
+        "ru": "Бакинский Государственный Центр Профессионального Образования Промышленности и Инноваций"
+    },
+    {
+        "id": "25",
+        "name": "eduOrganizator",
+        "az": "Azərbaycan Respublikası Elm və Təhsil Nazirliyi",
+        "en": "Ministry of Education Republic of Azerbaijan",
+        "ru": "Министерство Науки и Образования Азербайджанской Республики"
+    },
+    {
+        "id": "27",
+        "name": "mainBottomName",
+        "az": "Ad",
+        "en": "Name",
+        "ru": "Имя"
+    },
+    {
+        "id": "28",
+        "name": "mainBottomEmail",
+        "az": "E-poçt",
+        "en": "Email",
+        "ru": "Электронная почта"
+    },
+    {
+        "id": "29",
+        "name": "mainBottomDate",
+        "az": "Doğum tarixi",
+        "en": "Date of Birth",
+        "ru": "Дата рождения"
+    },
+    {
+        "id": "30",
+        "name": "mainBottomFrom",
+        "az": "Hardan",
+        "en": "From",
+        "ru": "От"
+    },
+    {
+        "id": "31",
+        "name": "mainEmailText",
+        "az": "shahmirzememmedyarov@gmail.com",
+        "en": "shahmirzememmedyarov@gmail.com",
+        "ru": "shahmirzememmedyarov@gmail.com"
+    },
+    {
+        "id": "32",
+        "name": "mainDateText",
+        "az": "15 avqust 2003-cü il",
+        "en": "15 August,2003",
+        "ru": "15 августа 2003 г."
+    },
+    {
+        "id": "33",
+        "name": "mainFromText",
+        "az": "Bakı, Azərbaycan",
+        "en": "Baku,Azerbijan",
+        "ru": "Баку,Азербайджан"
+    },
+    {
+        "id": "34",
+        "name": "projectTitle",
+        "az": "Növbəti layihənizə necə kömək edə bilərəm",
+        "en": "How I can help your next project",
+        "ru": "Как я могу помочь вашему следующему проекту"
+    },
+    {
+        "id": "35",
+        "name": "projectDesign",
+        "az": "Qrafik dizayn",
+        "en": "Graphic Design",
+        "ru": "Графический дизайн"
+    },
+    {
+        "id": "36",
+        "name": "projectWebDesign",
+        "az": "Veb Dizayn",
+        "en": "Web Design",
+        "ru": "Веб-дизайн"
+    },
+    {
+        "id": "37",
+        "name": "projectUxDesign",
+        "az": "UI\/UX Dizaynı",
+        "en": "UI\/UX Design",
+        "ru": "UI\/UX-дизайн"
+    },
+    {
+        "id": "38",
+        "name": "projectAppDev",
+        "az": "Proqram Dizaynı və İnkişafı",
+        "en": "App Design & Develop",
+        "ru": "Дизайн и разработка приложений"
+    },
+    {
+        "id": "39",
+        "name": "projectBusAnalysis",
+        "az": "Biznes təhlili",
+        "en": "Business Analysis",
+        "ru": "Бизнес-анализ"
+    },
+    {
+        "id": "40",
+        "name": "projectSeoMark",
+        "az": "SEO Marketinqi",
+        "en": "SEO Marketing",
+        "ru": "SEO-маркетинг"
+    },
+    {
+        "id": "41",
+        "name": "projectDesignText",
+        "az": "Lorem Ipsum sadəcə çap və çap sənayesinin saxta mətnidir. Lorem Ipsum sənayenin standart dummy mətni olmuşdur.",
+        "en": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
+        "ru": "Lorem Ipsum — это просто текст-пустышка полиграфической и наборной индустрии. Lorem Ipsum был стандартным фиктивным текстом в отрасли."
+    },
+    {
+        "id": "42",
+        "name": "resumeTitle",
+        "az": "Mənim CV-nin xülasəsi",
+        "en": "A summary of My Resume",
+        "ru": "Резюме моего резюме"
+    },
+    {
+        "id": "43",
+        "name": "myExperience",
+        "az": "Mənim Təcrübəm",
+        "en": "My Experiance",
+        "ru": "Мой опыт"
+    },
+    {
+        "id": "44",
+        "name": "myEducation",
+        "az": "Mənim Təhsilim",
+        "en": "My Education",
+        "ru": "Мое образование"
+    },
+    {
+        "id": "45",
+        "name": "mySkill",
+        "az": "Mənim Bacarıq",
+        "en": "My Skill",
+        "ru": "Мой навык"
+    },
+    {
+        "id": "46",
+        "name": "skillWDesign",
+        "az": "Veb Dizayn",
+        "en": "Web Design",
+        "ru": "Веб-дизайн"
+    },
+    {
+        "id": "47",
+        "name": "skillHTCS",
+        "az": "HTML\/CSS",
+        "en": "HTML\/CSS",
+        "ru": "HTML\/CSS"
+    },
+    {
+        "id": "48",
+        "name": "skillJS",
+        "az": "Javascript",
+        "en": "Javascript",
+        "ru": "Javascript"
+    },
+    {
+        "id": "49",
+        "name": "skillReactJs",
+        "az": "React Js",
+        "en": "React Js",
+        "ru": "React Js"
+    },
+    {
+        "id": "50",
+        "name": "skillSql",
+        "az": "SQL",
+        "en": "SQL",
+        "ru": "SQL"
+    },
+    {
+        "id": "51",
+        "name": "skillMIU",
+        "az": "Material UI",
+        "en": "Material UI",
+        "ru": "Material UI"
+    },
+    {
+        "id": "52",
+        "name": "portfolioTitle",
+        "az": "Ən son layihələrimdən bəziləri",
+        "en": "Some of my most recent projects",
+        "ru": "Некоторые из моих последних проектов"
+    },
+    {
+        "id": "53",
+        "name": "portfolioAll",
+        "az": "Hamısı",
+        "en": "All",
+        "ru": "Все"
+    },
+    {
+        "id": "54",
+        "name": "portfolioDetails",
+        "az": "Təfərrüatlar",
+        "en": "Details",
+        "ru": "Подробности"
+    },
+    {
+        "id": "55",
+        "name": "portfolioMock",
+        "az": "Maketlər",
+        "en": "Mockups",
+        "ru": "Мокапы"
+    },
+    {
+        "id": "56",
+        "name": "portfolioYoutube",
+        "az": "YouTube Videoları",
+        "en": "YouTube Videos\r\n",
+        "ru": "YouTube видео"
+    },
+    {
+        "id": "57",
+        "name": "portfolioVime",
+        "az": "Vime Videoları",
+        "en": "Vime Videos",
+        "ru": "Вайм-видео"
+    },
+    {
+        "id": "58",
+        "name": "hireTitile",
+        "az": "Mənimlə işləmək maraqlıdır",
+        "en": "Interested in working with me",
+        "ru": "Заинтересованы в работе со мной"
+    },
+    {
+        "id": "59",
+        "name": "hireButton",
+        "az": "Məni işə götür",
+        "en": "Hire Me",
+        "ru": "Найми меня"
+    },
+    {
+        "id": "60",
+        "name": "faqTitile",
+        "az": "Hər hansı bir sualınız var",
+        "en": "Have any questions",
+        "ru": "Есть вопросы"
+    },
+    {
+        "id": "61",
+        "name": "questionMenu1",
+        "az": "Callum nədir",
+        "en": "What is Callum",
+        "ru": "Что такое Каллум"
+    },
+    {
+        "id": "62",
+        "name": "questionMenu2",
+        "az": "Sizə necə kömək edə bilərəm?",
+        "en": "How Can I Help You",
+        "ru": "Могу я чем-нибудь помочь"
+    },
+    {
+        "id": "63",
+        "name": "questionMenu3",
+        "az": "İş axını üçün sadə proses",
+        "en": "Simple process for workflow",
+        "ru": "Простой процесс для рабочего процесса"
+    },
+    {
+        "id": "64",
+        "name": "questionMenu4",
+        "az": "Callum çox məqsədli şablondur",
+        "en": "Is Callum a Multi-purpose template",
+        "ru": "Является ли Callum многоцелевым шаблоном"
+    },
+    {
+        "id": "65",
+        "name": "questionMenu5",
+        "az": "Niyə responsive bir səhife templaidir",
+        "en": "Why responsive one page template",
+        "ru": "Почему адаптивный одностраничный шаблон"
+    },
+    {
+        "id": "66",
+        "name": "questionText1",
+        "az": "Və iddia onları daha çox maraqlandıracaq və bəziləriniz qüvvələri təqib edəcəklər, bəlkə də haqlı olaraq mənə qarşı çıxacaqlar. O, suskunluğu dəyişir. Adiliyə gülmək düzgün addımdır, böyük büdcəyə malik olmaq yox.",
+        "en": "And the suit would be of more interest to them, and, as some of you will persecute the force, they would perhaps be rightly against me. It changes the tacitmates that is. Laughing at mediocrity is the right thing to do, not to have a big budget.",
+        "ru": "И иск их бы больше заинтересовал, а так как некоторые из вас будут преследовать силу, то они, может быть, справедливо будут против меня. Это меняет негласные отношения, которые есть. Смеяться над посредственностью — правильно, а не иметь большой бюджет."
+    },
+    {
+        "id": "67",
+        "name": "questionText2",
+        "az": "Əgər veb sayt yaratmaq istəyirsinizsə, mənə zəng edəcəksiniz və bu barədə düşünəcəyəm, iş və qiymət xoşuma gəlsəydi, edərdim",
+        "en": "İf you want to create a website you will call on me and I will think about that, If I had like the work and price , I would have done",
+        "ru": "Если вы хотите создать веб-сайт, вы позвоните мне, и я подумаю об этом. Если бы мне понравилась работа и цена, я бы сделал"
+    },
+    {
+        "id": "68",
+        "name": "questionText3",
+        "az": "Və iddia onları daha çox maraqlandıracaq və bəziləriniz qüvvələri təqib edəcəklər, bəlkə də haqlı olaraq mənə qarşı çıxacaqlar. O, suskunluğu dəyişir. Adiliyə gülmək düzgün addımdır, böyük büdcəyə malik olmaq yox.",
+        "en": "And the suit would be of more interest to them, and, as some of you will persecute the force, they would perhaps be rightly against me. It changes the tacitmates that is. Laughing at mediocrity is the right thing to do, not to have a big budget.",
+        "ru": "И иск их бы больше заинтересовал, а так как некоторые из вас будут преследовать силу, то они, может быть, справедливо будут против меня. Это меняет негласные отношения, которые есть. Смеяться над посредственностью — правильно, а не иметь большой бюджет."
+    },
+    {
+        "id": "69",
+        "name": "questionText4",
+        "az": "Və iddia onları daha çox maraqlandıracaq və bəziləriniz qüvvələri təqib edəcəklər, bəlkə də haqlı olaraq mənə qarşı çıxacaqlar. O, suskunluğu dəyişir. Adiliyə gülmək düzgün addımdır, böyük büdcəyə malik olmaq yox.",
+        "en": "And the suit would be of more interest to them, and, as some of you will persecute the force, they would perhaps be rightly against me. It changes the tacitmates that is. Laughing at mediocrity is the right thing to do, not to have a big budget.",
+        "ru": "И иск их бы больше заинтересовал, а так как некоторые из вас будут преследовать силу, то они, может быть, справедливо будут против меня. Это меняет негласные отношения, которые есть. Смеяться над посредственностью — правильно, а не иметь большой бюджет.\r\n\r\n"
+    },
+    {
+        "id": "70",
+        "name": "questionText5",
+        "az": "Və iddia onları daha çox maraqlandıracaq və bəziləriniz qüvvələri təqib edəcəklər, bəlkə də haqlı olaraq mənə qarşı çıxacaqlar. O, suskunluğu dəyişir. Adiliyə gülmək düzgün addımdır, böyük büdcəyə malik olmaq yox.",
+        "en": "And the suit would be of more interest to them, and, as some of you will persecute the force, they would perhaps be rightly against me. It changes the tacitmates that is. Laughing at mediocrity is the right thing to do, not to have a big budget.",
+        "ru": "И иск их бы больше заинтересовал, а так как некоторые из вас будут преследовать силу, то они, может быть, справедливо будут против меня. Это меняет негласные отношения, которые есть. Смеяться над посредственностью — правильно, а не иметь большой бюджет."
+    },
+    {
+        "id": "71",
+        "name": "slideRef1",
+        "az": "Həqiqətən Sako o qədər çalışır ki, buna görə də mənim fikrimcə o, uğurlu proqram tərtibatçısı olacaq. bir gün onun işini quracaq, istədiyini alacaq",
+        "en": "Truly Sako is hard working so much that's why in my opinion, he will become a successful software developer. one or other day he will set up her business he will receive what her want",
+        "ru": "На самом деле Сако так много работает, поэтому, на мой взгляд, он станет успешным разработчиком программного обеспечения. рано или поздно он наладит ее бизнес он получит то, что она хочет"
+    },
+    {
+        "id": "72",
+        "name": "slideWplace1",
+        "az": "Div Academy, Step IT, AZTU, ADNSU",
+        "en": "Div Academy, Step IT, AZTU, ADNSU",
+        "ru": "Div Academy, Step IT, АЗТУ, АДНСУ"
+    },
+    {
+        "id": "73",
+        "name": "contactTitile1",
+        "az": "Gəlin əlaqə saxlayaq",
+        "en": "Let's get in touch",
+        "ru": "Давайте свяжемся"
+    },
+    {
+        "id": "74",
+        "name": "contact1Text",
+        "az": "Yeni layihələri və dizayn problemlərini müzakirə etməkdən zövq alıram. Zəhmət olmasa mümkün qədər çox məlumat paylaşın ki, ilk görüşümüzdən maksimum yararlana bilək.",
+        "en": "I enjoy discussing new projects and design challenges. Please share as much info, as possible so we can get the most out of our first catch-up.",
+        "ru": "Мне нравится обсуждать новые проекты и дизайнерские задачи. Пожалуйста, поделитесь как можно большей информацией, чтобы мы могли получить максимальную отдачу от нашей первой встречи."
+    },
+    {
+        "id": "75",
+        "name": "contact1Live",
+        "az": "Yaşayış:",
+        "en": "Living In:",
+        "ru": "Проживание в:"
+    },
+    {
+        "id": "76",
+        "name": "contact1Location",
+        "az": "Bakı, Azərbaycan  20 Yanvar Moskva prospekti 52",
+        "en": "Baku, Azerbaijan 20 January Moskva avenue 52",
+        "ru": "Баку, Азербайджан 20 Января проспект Москвы 52"
+    },
+    {
+        "id": "77",
+        "name": "contact1Call",
+        "az": "Müraciət",
+        "en": "Call",
+        "ru": "Вызов"
+    },
+    {
+        "id": "78",
+        "name": "contac1Wh",
+        "az": "Whatsapp",
+        "en": "Whatsapp",
+        "ru": "Whatsapp"
+    },
+    {
+        "id": "79",
+        "name": "contac2Title",
+        "az": "Layihənizi qiymətləndirin?",
+        "en": "Estimate your Project?",
+        "ru": "Оцените свой проект?"
+    },
+    {
+        "id": "80",
+        "name": "contac2Inp1",
+        "az": "Adın nədir:",
+        "en": "What is Your Name:",
+        "ru": "Как вас зовут:"
+    },
+    {
+        "id": "81",
+        "name": "contact2Inp2",
+        "az": "E-poçt ünvanınız:",
+        "en": "Your Email Address:",
+        "ru": "Ваш электронный адрес:"
+    },
+    {
+        "id": "82",
+        "name": "contact2Inp3",
+        "az": "Sizə necə kömək edə bilərəm?:",
+        "en": "How can I Help you?:",
+        "ru": "Могу я чем-нибудь помочь?:"
+    },
+    {
+        "id": "83",
+        "name": "contact2Sent",
+        "az": "Göndərmək",
+        "en": "Sent",
+        "ru": "Отправил"
+    }
+]

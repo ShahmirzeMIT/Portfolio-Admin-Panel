@@ -69,6 +69,7 @@ if(mysqli_num_rows($result)>0){
 		$result=mysqli_query($conn,$sql);
 		if($result>0){
 			header("Location: ../slide.php");
+			
 		}
 	}
 	

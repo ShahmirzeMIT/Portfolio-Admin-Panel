@@ -59,6 +59,7 @@ if(isset($_POST['submit'])){
 	$result=mysqli_query($conn,$sql);
 	if($result>0){
 		header("Location: ../translation.php");
+		header("refresh: 1; url = ../traslatioconvertjson.php");
 	}	
 }
 

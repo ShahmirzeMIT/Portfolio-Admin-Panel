@@ -52,7 +52,7 @@ if(mysqli_num_rows($result)>0){
 		$path="../image/" .$name;
 		$size=$_FILES["file"]["size"];
 		$type=strtolower(pathinfo($path, PATHINFO_EXTENSION));
-		unlink("../image/slide".$oldImage."");
+		unlink("../image/".$oldImage."");
 		$ok=1;
 		$check=getimagesize($temp);
 		if($check == false  || file_exists($path) || $size > 500000 ) $ok=0;
