@@ -1,4 +1,4 @@
-[
+{ "data" : [
     {
         "id": "1",
         "name": "eduName",
@@ -15,10 +15,10 @@
     },
     {
         "id": "3",
-        "name": "eduDescription",
-        "az": "Men Oxudugum Unini Cox sevirem",
-        "en": "i like what i read",
-        "ru": "мне нравится то, что я читаю"
+        "name": "eduStudyYear",
+        "az": "2020\/2024",
+        "en": "2020\/2024",
+        "ru": "2020\/2024"
     },
     {
         "id": "4",
@@ -30,23 +30,23 @@
     {
         "id": "5",
         "name": "headType1",
-        "az": "DİZAYNER",
-        "en": "DESIGNER",
-        "ru": "ДИЗАЙНЕР"
+        "az": "Full-Stack",
+        "en": "Full-Stack",
+        "ru": "Полный стек"
     },
     {
         "id": "6",
         "name": "headType2",
-        "az": "DEVELOPER",
-        "en": "DEVELOPER",
-        "ru": "РАЗРАБОТЧИК"
+        "az": "Front End",
+        "en": "Front End",
+        "ru": "Front-end"
     },
     {
         "id": "7",
         "name": "headType3",
-        "az": "CALLUM",
-        "en": "CALLUM",
-        "ru": "КАЛЛУМ"
+        "az": "Backend",
+        "en": "Backend",
+        "ru": "Бэкенд"
     },
     {
         "id": "8",
@@ -135,9 +135,9 @@
     {
         "id": "20",
         "name": "mainWork",
-        "az": "Mən veb dizayna həvəsi olan dizayner və tərtibatçıyam. Mən son istifadəçiyə real dəyər verən sadə, təmiz və hamar vebsaytlar hazırlamaqdan həzz alıram. Mənimlə işləyərkən minlərlə müştəri müstəsna nəticələr əldə etdi. Müştərinin tələblərinə cavab verən işlərin vaxtında və büdcə daxilində çatdırılması bizim motodur",
-        "en": "I am a designer and developer with a passion for web design. I enjoy developing simple, clean and sleek websites that provide real value to the end user. Thousands of clients have achieved exceptional results while working with me. Delivering work that meets the client's requirements on time and within budget is our motto",
-        "ru": "Я дизайнер и разработчик со страстью к веб-дизайну. Мне нравится разрабатывать простые, чистые и стильные веб-сайты, которые представляют реальную ценность для конечного пользователя. Тысячи клиентов добились выдающихся результатов, работая со мной. Выполнение работ, соответствующих требованиям клиента, в срок и в рамках бюджета — наш девиз."
+        "az": "Mən təxminən 2 ilə yaxındır ki, Full-Stack Developerəm, bəzi dizayn proqramlarını (Figma, PhotoPea, Photoshop) bilirəm və Azərbaycan Memarlıq və İnşaat Universitetində təhsil alıram. İxtisasım İnformasiya Texnologiyalarıdır və 4-cü kursdayam, digər tərəfdən , Azərbaycan Respublikası Təhsil Nazirliyi tərəfindən ödənişsiz kurs qazanmışdım, Kurs Full-Stack Developer idi\r\nsonra JED Akademiyasına getdim və orada Frontend Developer təhsili aldım",
+        "en": "I am a Full-Stack Developer of about 2 years,  I  know some design Programs (Figma, PhotoPea, Photoshop)  and I am studying at Azerbaijan Architecture and Construction University My specialty is Information Technology and I am in Course 4, on the other hand, I had wined a free course by Ministry of Education Republic of Azerbaijan, The Course was Full-Stack Developer\r\nthen I went to JED Academy and studied Frontend Developer there",
+        "ru": "Я Full-Stack Developer со стажем около 2 лет, владею некоторыми программами для дизайна (Figma, PhotoPea, Photoshop) и учусь в Азербайджанском Архитектурно-Строительном Университете. Моя специальность - Информационные Технологии и я учусь на Курсе 4, с другой стороны , Я выиграл бесплатный курс Министерства Образования Азербайджанской Республики, Курс был Full-Stack Developer\r\nзатем я пошел в JED Academy и изучал там Frontend Developer"
     },
     {
         "id": "21",
@@ -155,24 +155,24 @@
     },
     {
         "id": "23",
-        "name": "eduCourse",
-        "az": "Full Stack Developer(HTML and CSS ,JAVASCIRPT , PHP)",
-        "en": "Full Stack Developer(HTML and CSS ,JAVASCIRPT , PHP)",
-        "ru": "Full Stack Разработчик (HTML и CSS, JAVASCRIPT, PHP)"
-    },
-    {
-        "id": "24",
         "name": "eduCompany",
         "az": "Sənaye və İnnovasiyalar üzrə Bakı Dövlət Peşə Təhsil Mərkəzi",
         "en": "Baku State Vocational Education Center for Industry and Innovation",
         "ru": "Бакинский Государственный Центр Профессионального Образования Промышленности и Инноваций"
     },
     {
+        "id": "24",
+        "name": "eduCourse",
+        "az": " Full Stack Developer(HTML and CSS ,JAVASCIRPTand React , PHP and Laravel)",
+        "en": " Full Stack Developer(HTML and CSS ,JAVASCIRPTand React , PHP and Laravel)",
+        "ru": "Full Stack Developer (HTML и CSS, JAVASCIPT и React, PHP и Laravel)"
+    },
+    {
         "id": "25",
-        "name": "eduOrganizator",
-        "az": "Azərbaycan Respublikası Elm və Təhsil Nazirliyi",
-        "en": "Ministry of Education Republic of Azerbaijan",
-        "ru": "Министерство Науки и Образования Азербайджанской Республики"
+        "name": "eduCourseYear",
+        "az": "01.06.2021\/15.02.2022",
+        "en": "01.06.2021\/15.02.2022",
+        "ru": "01.06.2021\/15.02.2022"
     },
     {
         "id": "27",
@@ -233,9 +233,9 @@
     {
         "id": "35",
         "name": "projectDesign",
-        "az": "Qrafik dizayn",
-        "en": "Graphic Design",
-        "ru": "Графический дизайн"
+        "az": "Full-Stack Developer",
+        "en": "Full-Stack Developer",
+        "ru": "Full-Stack разработчик"
     },
     {
         "id": "36",
@@ -247,16 +247,16 @@
     {
         "id": "37",
         "name": "projectUxDesign",
-        "az": "UI\/UX Dizaynı",
-        "en": "UI\/UX Design",
-        "ru": "UI\/UX-дизайн"
+        "az": "Front-end Developer",
+        "en": "Front-end Developer",
+        "ru": "Front-end разработчик"
     },
     {
         "id": "38",
         "name": "projectAppDev",
-        "az": "Proqram Dizaynı və İnkişafı",
-        "en": "App Design & Develop",
-        "ru": "Дизайн и разработка приложений"
+        "az": "Back-end developer(PHP)",
+        "en": "Back-end developer(PHP)",
+        "ru": "Back-end разработчик (PHP)"
     },
     {
         "id": "39",
@@ -268,9 +268,9 @@
     {
         "id": "40",
         "name": "projectSeoMark",
-        "az": "SEO Marketinqi",
-        "en": "SEO Marketing",
-        "ru": "SEO-маркетинг"
+        "az": "Shopify Dropshipping",
+        "en": "Shopify Dropshipping",
+        "ru": "Shopify Дропшиппинг"
     },
     {
         "id": "41",
@@ -572,5 +572,96 @@
         "az": "Göndərmək",
         "en": "Sent",
         "ru": "Отправил"
+    },
+    {
+        "id": "84",
+        "name": "eduCompanyName",
+        "az": " Sahil-İT",
+        "en": " Sahil-İT",
+        "ru": "Сахил-ИТ"
+    },
+    {
+        "id": "85",
+        "name": "eduPosition",
+        "az": "Full-Stack Developer",
+        "en": "Full-Stack Developer",
+        "ru": "Полный стек разработчик"
+    },
+    {
+        "id": "86",
+        "name": "eduPosYear1",
+        "az": "15.04.2023\/Hazırda",
+        "en": "15.04.2023\/Present",
+        "ru": "15.04.2023\/Настоящее время"
+    },
+    {
+        "id": "87",
+        "name": "mainMe",
+        "az": "Mənim haqqımda",
+        "en": "About Me",
+        "ru": "Обо мне"
+    },
+    {
+        "id": "88",
+        "name": "mainKnow",
+        "az": "Məni Daha çox tanıyın",
+        "en": "Know Me More\r\n",
+        "ru": "Знай меня больше"
+    },
+    {
+        "id": "89",
+        "name": "projectFirst",
+        "az": "Mən nə edirəm?",
+        "en": "What I Do?",
+        "ru": "Что мне делать?"
+    },
+    {
+        "id": "90",
+        "name": "resume",
+        "az": "CV",
+        "en": "Resume",
+        "ru": "Резюме"
+    },
+    {
+        "id": "91",
+        "name": "eduJed",
+        "az": "JedAcademy\r\n                        ",
+        "en": "JedAcademy\r\n                        ",
+        "ru": "Джед Академия"
+    },
+    {
+        "id": "92",
+        "name": "eduJedCourse",
+        "az": "HTML5, CSS3, SASS, SCSS, Bootstrap, Tailwind CSS, Git \/ Github, JavaScript, TypeScript, Ajax \/ Axios, React.js, Redux, REST API, Material UI",
+        "en": "HTML5, CSS3, SASS, SCSS, Bootstrap, Tailwind CSS, Git \/ Github, JavaScript, TypeScript, Ajax \/ Axios, React.js, Redux, REST API, Material UI",
+        "ru": "HTML5, CSS3, SASS, SCSS, Bootstrap, Tailwind CSS, Git \/ Github, JavaScript, TypeScript, Ajax \/ Axios, React.js, Redux, REST API, Material UI"
+    },
+    {
+        "id": "93",
+        "name": "eduJedYear",
+        "az": "15.09.2022\/02.02.2023",
+        "en": "15.09.2022\/02.02.2023",
+        "ru": "15.09.2022\/02.02.2023"
+    },
+    {
+        "id": "94",
+        "name": "eduEnglish",
+        "az": "Sənan Hüseynzadə School",
+        "en": "Sənan Hüseynzadə School",
+        "ru": "Сенан Хусейнзаде Cкул"
+    },
+    {
+        "id": "95",
+        "name": "eduEnglishGeneral",
+        "az": "Ümumi ingilis dili",
+        "en": "General English",
+        "ru": "Общий английский"
+    },
+    {
+        "id": "96",
+        "name": "eduEnglishYear",
+        "az": "19.11.2022\/Davam Edir",
+        "en": "19.11.2022\/Present",
+        "ru": "19.11.2022\/Продолжение"
     }
-]
+] }

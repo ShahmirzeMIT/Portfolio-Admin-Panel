@@ -1,0 +1,23 @@
+{ "data" : [
+    {
+        "id": "1",
+        "name": "1",
+        "place": "2",
+        "period": "2020\/2024",
+        "description": "3"
+    },
+    {
+        "id": "2",
+        "name": "23",
+        "place": "24",
+        "period": "2021\/2022",
+        "description": "25"
+    },
+    {
+        "id": "3",
+        "name": "84",
+        "place": "85",
+        "period": "15.04.2023",
+        "description": "86"
+    }
+] }
