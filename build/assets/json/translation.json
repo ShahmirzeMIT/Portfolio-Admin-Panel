@@ -32,7 +32,7 @@
         "name": "headType1",
         "az": "Full-Stack",
         "en": "Full-Stack",
-        "ru": "Полный стек"
+        "ru": "Full-Stack"
     },
     {
         "id": "6",
@@ -366,30 +366,30 @@
     {
         "id": "54",
         "name": "portfolioDetails",
-        "az": "Təfərrüatlar",
-        "en": "Details",
-        "ru": "Подробности"
+        "az": "Javascript",
+        "en": "Javascript",
+        "ru": "Javascript"
     },
     {
         "id": "55",
         "name": "portfolioMock",
-        "az": "Maketlər",
-        "en": "Mockups",
-        "ru": "Мокапы"
+        "az": "Oyunlar",
+        "en": "Games",
+        "ru": "Игры"
     },
     {
         "id": "56",
         "name": "portfolioYoutube",
-        "az": "YouTube Videoları",
-        "en": "YouTube Videos\r\n",
-        "ru": "YouTube видео"
+        "az": "PHP",
+        "en": "PHP",
+        "ru": "PHP"
     },
     {
         "id": "57",
         "name": "portfolioVime",
-        "az": "Vime Videoları",
-        "en": "Vime Videos",
-        "ru": "Вайм-видео"
+        "az": "Layihələr",
+        "en": "Projects",
+        "ru": "Проекты"
     },
     {
         "id": "58",
@@ -663,5 +663,47 @@
         "az": "19.11.2022\/Davam Edir",
         "en": "19.11.2022\/Present",
         "ru": "19.11.2022\/Продолжение"
+    },
+    {
+        "id": "97",
+        "name": "resuDownload",
+        "az": "Cv yükləyin",
+        "en": "Download Cv",
+        "ru": "Скачать Cv"
+    },
+    {
+        "id": "98",
+        "name": "portfolioTarget",
+        "az": "Portfolio",
+        "en": "Portfolio",
+        "ru": "Портфолио"
+    },
+    {
+        "id": "99",
+        "name": "Titleslide",
+        "az": "Referanslar",
+        "en": "References",
+        "ru": "Рекомендации"
+    },
+    {
+        "id": "100",
+        "name": "Targetslide",
+        "az": "Referanslarimdan bəziləri nə deyir",
+        "en": "What Some of my Reference Say",
+        "ru": "Что говорят некоторые из моих ссылок"
+    },
+    {
+        "id": "101",
+        "name": "slideRef2",
+        "az": "Həqiqətən Sako o qədər çalışır ki, buna görə də mənim fikrimcə o, uğurlu proqram tərtibatçısı olacaq. bir gün onun işini quracaq, istədiyini alacaq",
+        "en": "Truly Sako is hard working so much that's why in my opinion, he will become a successful software developer. one or other day he will set up her business he will receive what her want",
+        "ru": "На самом деле Сако так много работает, поэтому, на мой взгляд, он станет успешным разработчиком программного обеспечения. рано или поздно он наладит ее бизнес он получит то, что она хочет"
+    },
+    {
+        "id": "102",
+        "name": "slideWplace2",
+        "az": "Sahil-İT MMC",
+        "en": "Sahil-İT MMC",
+        "ru": "Sahil-İT MMC"
     }
 ] }
