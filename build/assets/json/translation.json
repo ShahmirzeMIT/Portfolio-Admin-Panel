@@ -486,7 +486,7 @@
         "id": "71",
         "name": "slideRef1",
         "az": "Həqiqətən Sako o qədər çalışır ki, buna görə də mənim fikrimcə o, uğurlu proqram tərtibatçısı olacaq. bir gün onun işini quracaq, istədiyini alacaq",
-        "en": "Truly Sako is hard working so much that's why in my opinion, he will become a successful software developer. one or other day he will set up her business he will receive what her want",
+        "en": "Truly Sako is hard working so much that's why in my opinion, he will become like successful software developer. one or other day he will set up his business he will receive what he wants",
         "ru": "На самом деле Сако так много работает, поэтому, на мой взгляд, он станет успешным разработчиком программного обеспечения. рано или поздно он наладит ее бизнес он получит то, что она хочет"
     },
     {
@@ -534,9 +534,9 @@
     {
         "id": "78",
         "name": "contac1Wh",
-        "az": "Whatsapp",
-        "en": "Whatsapp",
-        "ru": "Whatsapp"
+        "az": "Whatsapp(+994556984546)",
+        "en": "Whatsapp(+994556984546)",
+        "ru": "Whatsapp(+994556984546)"
     },
     {
         "id": "79",
@@ -696,14 +696,28 @@
         "id": "101",
         "name": "slideRef2",
         "az": "Həqiqətən Sako o qədər çalışır ki, buna görə də mənim fikrimcə o, uğurlu proqram tərtibatçısı olacaq. bir gün onun işini quracaq, istədiyini alacaq",
-        "en": "Truly Sako is hard working so much that's why in my opinion, he will become a successful software developer. one or other day he will set up her business he will receive what her want",
+        "en": "Truly Sako is hard working so much that's why in my opinion, he will become  like successful software developer. one or other day he will set up his business he will receive what he wants",
         "ru": "На самом деле Сако так много работает, поэтому, на мой взгляд, он станет успешным разработчиком программного обеспечения. рано или поздно он наладит ее бизнес он получит то, что она хочет"
     },
     {
         "id": "102",
         "name": "slideWplace2",
-        "az": "Sahil-İT MMC",
-        "en": "Sahil-İT MMC",
-        "ru": "Sahil-İT MMC"
+        "az": "ITB VVORLD  MMC",
+        "en": "ITB VVORLD  MMC",
+        "ru": "ITB VVORLD  MMC"
+    },
+    {
+        "id": "103",
+        "name": "skillEnglish",
+        "az": "Ingilis Upper Intermediate",
+        "en": "English Upper Intermediate",
+        "ru": "Английский Upper Intermediate"
+    },
+    {
+        "id": "104",
+        "name": "skillPhp",
+        "az": "PHP",
+        "en": "PHP",
+        "ru": "PHP"
     }
 ] }
