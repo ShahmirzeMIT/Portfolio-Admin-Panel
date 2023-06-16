@@ -415,9 +415,9 @@
     {
         "id": "61",
         "name": "questionMenu1",
-        "az": "Callum nədir",
-        "en": "What is Callum",
-        "ru": "Что такое Каллум"
+        "az": "Mən kiməm?",
+        "en": "Who am I?",
+        "ru": "Кто я?"
     },
     {
         "id": "62",
@@ -429,58 +429,58 @@
     {
         "id": "63",
         "name": "questionMenu3",
-        "az": "İş axını üçün sadə proses",
-        "en": "Simple process for workflow",
-        "ru": "Простой процесс для рабочего процесса"
+        "az": "5 ildən sonra özümü harada görürəm?",
+        "en": "Where do I see myself in 5 years?",
+        "ru": "Кем я вижу себя через 5 лет?"
     },
     {
         "id": "64",
         "name": "questionMenu4",
-        "az": "Callum çox məqsədli şablondur",
-        "en": "Is Callum a Multi-purpose template",
-        "ru": "Является ли Callum многоцелевым шаблоном"
+        "az": "Niyə mən digər Proqramçılardan fərqlənirəm?",
+        "en": "Why do I stand out from other Programmers",
+        "ru": "Почему я выделяюсь среди других программистов?"
     },
     {
         "id": "65",
         "name": "questionMenu5",
-        "az": "Niyə responsive bir səhife templaidir",
-        "en": "Why responsive one page template",
-        "ru": "Почему адаптивный одностраничный шаблон"
+        "az": "Niyə məni seçməlisən?",
+        "en": "Why do you have to choose me?",
+        "ru": "Почему ты должен выбрать меня?"
     },
     {
         "id": "66",
         "name": "questionText1",
-        "az": "Və iddia onları daha çox maraqlandıracaq və bəziləriniz qüvvələri təqib edəcəklər, bəlkə də haqlı olaraq mənə qarşı çıxacaqlar. O, suskunluğu dəyişir. Adiliyə gülmək düzgün addımdır, böyük büdcəyə malik olmaq yox.",
-        "en": "And the suit would be of more interest to them, and, as some of you will persecute the force, they would perhaps be rightly against me. It changes the tacitmates that is. Laughing at mediocrity is the right thing to do, not to have a big budget.",
-        "ru": "И иск их бы больше заинтересовал, а так как некоторые из вас будут преследовать силу, то они, может быть, справедливо будут против меня. Это меняет негласные отношения, которые есть. Смеяться над посредственностью — правильно, а не иметь большой бюджет."
+        "az": "Adım Şahmirzədir amma özümü Sako və ya Mirze adlandırmağı xoşlayıram Bakıda yaşayıram və Sahil-İT MMC-də işləyirəm\r\nMən Azərbaycan Memarlıq və İnşaat Universitetində və Sənan Hüseynzadə  School oxuyuram",
+        "en": "My name is Shahmirze but I like to call myself Sako or Mirze I am living in Baku and working at Sahil-İT MMC  \r\nI am studying at Azerbaijan Architecture and Construction University and at Senan Huseynzade School",
+        "ru": "Меня зовут Шахмирзе, но я люблю называть себя Сако или Мирзе. Я живу в Баку и работаю в Sahil-İT MMC.\r\nЯ учусь в Азербайджанском Архитектурно-Строительном Университете и в  Senan Huseynzade School"
     },
     {
         "id": "67",
         "name": "questionText2",
-        "az": "Əgər veb sayt yaratmaq istəyirsinizsə, mənə zəng edəcəksiniz və bu barədə düşünəcəyəm, iş və qiymət xoşuma gəlsəydi, edərdim",
-        "en": "İf you want to create a website you will call on me and I will think about that, If I had like the work and price , I would have done",
-        "ru": "Если вы хотите создать веб-сайт, вы позвоните мне, и я подумаю об этом. Если бы мне понравилась работа и цена, я бы сделал"
+        "az": "Əgər veb sayt yaratmaq istəyirsinizsə mənə zəng edəcəksiniz və mən bu barədə düşünəcəyəm, işi və qiyməti bəyənsəm, edəcəm",
+        "en": "İf you want to create a website you will call on me and I will think about that, If I  like the work and price, I will  do it",
+        "ru": "Если вы хотите создать сайт, вы позвоните мне, и я подумаю об этом, если мне понравится работа и цена, я это сделаю."
     },
     {
         "id": "68",
         "name": "questionText3",
-        "az": "Və iddia onları daha çox maraqlandıracaq və bəziləriniz qüvvələri təqib edəcəklər, bəlkə də haqlı olaraq mənə qarşı çıxacaqlar. O, suskunluğu dəyişir. Adiliyə gülmək düzgün addımdır, böyük büdcəyə malik olmaq yox.",
-        "en": "And the suit would be of more interest to them, and, as some of you will persecute the force, they would perhaps be rightly against me. It changes the tacitmates that is. Laughing at mediocrity is the right thing to do, not to have a big budget.",
-        "ru": "И иск их бы больше заинтересовал, а так как некоторые из вас будут преследовать силу, то они, может быть, справедливо будут против меня. Это меняет негласные отношения, которые есть. Смеяться над посредственностью — правильно, а не иметь большой бюджет."
+        "az": "Bu sual fikrimi çaşdırır, amma mən universiteti bitirəndə çox qısa cavab verirəm Kanadaya və ya Polşaya köçəcəyəm və burada Proqram Tərtibatçı olaraq işləyəcəyəm.",
+        "en": "This question confuses my mind but I give a very short answer when I graduate from university I will move to Canada or Polsha and I will work here as Software Developer ",
+        "ru": "Этот вопрос сбивает меня с толку, но я даю очень короткий ответ, когда я закончу университет, я перееду в Канаду или Польшу и буду работать здесь разработчиком программного обеспечения."
     },
     {
         "id": "69",
         "name": "questionText4",
-        "az": "Və iddia onları daha çox maraqlandıracaq və bəziləriniz qüvvələri təqib edəcəklər, bəlkə də haqlı olaraq mənə qarşı çıxacaqlar. O, suskunluğu dəyişir. Adiliyə gülmək düzgün addımdır, böyük büdcəyə malik olmaq yox.",
-        "en": "And the suit would be of more interest to them, and, as some of you will persecute the force, they would perhaps be rightly against me. It changes the tacitmates that is. Laughing at mediocrity is the right thing to do, not to have a big budget.",
-        "ru": "И иск их бы больше заинтересовал, а так как некоторые из вас будут преследовать силу, то они, может быть, справедливо будут против меня. Это меняет негласные отношения, которые есть. Смеяться над посредственностью — правильно, а не иметь большой бюджет.\r\n\r\n"
+        "az": "İstər ideya yaratmaq bacarığı, istərsə də analitik düşünmə qabiliyyəti ilə mən digər Proqramçılardan fərqlənirəm. Siz məni işə götürürsünüz və başa düşəcəksiniz bunu",
+        "en": "Both with the ability to generate ideas and the ability to think analytically I stand out from other Programmers  You hire me and You will realize that",
+        "ru": "Благодаря способности генерировать идеи и способности мыслить аналитически я отличаюсь от других программистов, которых вы наймете, и вы поймете, что"
     },
     {
         "id": "70",
         "name": "questionText5",
-        "az": "Və iddia onları daha çox maraqlandıracaq və bəziləriniz qüvvələri təqib edəcəklər, bəlkə də haqlı olaraq mənə qarşı çıxacaqlar. O, suskunluğu dəyişir. Adiliyə gülmək düzgün addımdır, böyük büdcəyə malik olmaq yox.",
-        "en": "And the suit would be of more interest to them, and, as some of you will persecute the force, they would perhaps be rightly against me. It changes the tacitmates that is. Laughing at mediocrity is the right thing to do, not to have a big budget.",
-        "ru": "И иск их бы больше заинтересовал, а так как некоторые из вас будут преследовать силу, то они, может быть, справедливо будут против меня. Это меняет негласные отношения, которые есть. Смеяться над посредственностью — правильно, а не иметь большой бюджет."
+        "az": "Həmişə özüm irəliləyiş əldə etdiyim üçün yeni Texnologiyanı öyrənirəm, o cümlədən İT-i də əhatə edir, digər tərəfdən ingilis dilini çox yaxşı bilirəm. İngilis dili səviyyəm Upper-Intermediatedir və rus dilini öyrənməyə qərar verdim.",
+        "en": "Because I always make progress myself I learn new Technology which includes IT on the other hand I know English very well My English level is Upper-Intermediate and I made up my mind  that I will learn Russian ",
+        "ru": "Поскольку я всегда добиваюсь прогресса, я изучаю новые технологии, включая ИТ, с другой стороны, я очень хорошо знаю английский язык. Мой уровень английского выше среднего, и я решил, что буду изучать русский язык."
     },
     {
         "id": "71",
