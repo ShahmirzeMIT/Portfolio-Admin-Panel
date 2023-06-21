@@ -39,6 +39,9 @@
 				  <li class="nav-item">
 					<a class="nav-link" href="portfolioImage.php">Image</a>
 				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="projectImage.php">Project Image</a>
+				  </li>
 			    </ul>
 			  </div>
 			</div>

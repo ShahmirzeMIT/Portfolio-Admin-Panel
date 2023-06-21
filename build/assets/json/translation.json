@@ -423,8 +423,8 @@
         "id": "62",
         "name": "questionMenu2",
         "az": "Sizə necə kömək edə bilərəm?",
-        "en": "How Can I Help You",
-        "ru": "Могу я чем-нибудь помочь"
+        "en": "How Can I Help You?",
+        "ru": "Могу я чем-нибудь помочь?"
     },
     {
         "id": "63",
@@ -437,7 +437,7 @@
         "id": "64",
         "name": "questionMenu4",
         "az": "Niyə mən digər Proqramçılardan fərqlənirəm?",
-        "en": "Why do I stand out from other Programmers",
+        "en": "Why do I stand out from other Programmers?",
         "ru": "Почему я выделяюсь среди других программистов?"
     },
     {
@@ -576,16 +576,16 @@
     {
         "id": "84",
         "name": "eduCompanyName",
-        "az": " Sahil-İT",
-        "en": " Sahil-İT",
-        "ru": "Сахил-ИТ"
+        "az": "Sahil-İT MMC",
+        "en": "Sahil-İT MMC",
+        "ru": "Sahil-İT MMC"
     },
     {
         "id": "85",
         "name": "eduPosition",
-        "az": "Full-Stack Developer",
-        "en": "Full-Stack Developer",
-        "ru": "Полный стек разработчик"
+        "az": "Front-End Developer",
+        "en": "Front-End Developer",
+        "ru": "Front-End Developer"
     },
     {
         "id": "86",

@@ -1,13 +1,15 @@
 <?php
 include('../db.php');
 $sentId=$_GET['id'];
-$sql='SELECT * FROM `portfolioimg` WHERE `id`="'.$sentId.'"';
+$sql='SELECT * FROM `portfoliomenu` WHERE `id`="'.$sentId.'"';
 $result=mysqli_query($conn,$sql);
 if(mysqli_num_rows($result)>0){
 	while ($row=mysqli_fetch_assoc($result)) {
 			$id=$row['id'];
-			$src=$row['src'];
-			$menuId=$row['menuId'];
+			$src=$row['name'];
+			$menuId=$row['Upload_id'];
+			$git=$row['git'];
+			$site=$row['site'];
 	}
 }
 ?>
@@ -37,12 +39,24 @@ if(mysqli_num_rows($result)>0){
     <label for="exampleInputEmail1" class="form-label">MenuId</label>
     <input type="text" class="form-control" id="exampleInputEmail1" name="menuId"  value="<?=$menuId?>">
   </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">GitLink</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" name="git"  value="<?=$git?>">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Site Link</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" name="site"  value="<?=$site?>">
+  </div>
+
 <input type="hidden" name="id" value="<?=$id?>">
   <div class="text-center col"><button type="submit" class="btn btn-primary" name="submit">Submit</button>
    <button type="submit" class="btn btn-danger"><a href="../portfolioImage.php" class="text-light text-decoration-none">Go Back</a></button></div>
 </form>
  <?php
- if(isset($_POST['submit'])){
+
+  if(isset($_POST['submit'])){
+	$git=$_POST['git'];
+	$site=$_POST['site'];
 	$id2=$_POST['id'];
 	$menuId=$_POST['menuId'];
 	$oldImage=$_POST['src'];
@@ -58,7 +72,7 @@ if(mysqli_num_rows($result)>0){
 		if($check == false  || file_exists($path) || $size > 500000 ) $ok=0;
 		if ($ok)
 			move_uploaded_file($temp, $path);
-			$sql='UPDATE `portfolioimg` SET `src`="'.$name.'", `menuId`="'.$menuId.'" WHERE `id`="'.$id2.'"';
+			$sql='UPDATE `portfoliomenu` SET `Upload_id`='.$menuId.',`name`='.$name.',`git`='.$git.',`site`='.$site.' WHERE `id`="'.$id2.'"'; 
 			$result=mysqli_query($conn,$sql);
 			if($result>0){
 				header("Location: ../portfolioImage.php");
@@ -66,14 +80,14 @@ if(mysqli_num_rows($result)>0){
 		
 	 }
 	else{
-		$sql='UPDATE `portfolioimg` SET `menuId`="'.$menuId.'" WHERE `id`="'.$id2.'"';
+		$sql='UPDATE `portfoliomenu` SET `menuId`="'.$menuId.'",`git`='.$git.',`site`='.$site.' WHERE `id`="'.$id2.'"';
 		$result=mysqli_query($conn,$sql);
 		if($result>0){
 			header("Location: ../portfolioImage.php");
 		}
 	}
 	
-}
+ }
  ?>
 </body>
 </html>

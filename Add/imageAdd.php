@@ -6,7 +6,7 @@ if(isset($_POST['menuId']) && isset($_FILES['file']) ){
     if($menuId!="" ){
 	$temp=$_FILES["file"]["tmp_name"];
 	$name=$_FILES["file"]["name"];
-	$path="../image/" .$name;
+	$path="../build/assets/img/" .$name;
 	$size=$_FILES["file"]["size"];
 	$type=strtolower(pathinfo($path, PATHINFO_EXTENSION));
 	$ok=1;

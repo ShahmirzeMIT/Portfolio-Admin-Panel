@@ -24,7 +24,7 @@ include('header.php');
 						echo '
 						<tr>
 							<th scope="row">'.$id.'</th>
-							<td><img src="image/'.$src.'" style="width:300px; height:300px;object-fit: contain;margin: 0 auto !important;"/></td>
+							<td><img src="./build/assets/img/'.$src.'" style="width:300px; height:300px;object-fit: contain;margin: 0 auto !important;"/></td>
 							<td>'.$menuId.'</td>
 							<td><a href="./update/imageUpdate.php?id='.$id.'" class="px-3 "><i class="fa-solid fa-pen-to-square text-success"></i></a></td>
 						</tr>
