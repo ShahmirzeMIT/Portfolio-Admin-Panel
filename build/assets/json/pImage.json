@@ -2,12 +2,12 @@
     {
         "id": "1",
         "src": "Screenshot (295).png",
-        "menuId": "1"
+        "menuId": "0"
     },
     {
         "id": "2",
-        "src": "Screenshot (294).png",
-        "menuId": "2"
+        "src": "tercume.png",
+        "menuId": "1"
     },
     {
         "id": "3",
@@ -17,16 +17,16 @@
     {
         "id": "4",
         "src": "Screenshot (298).png",
-        "menuId": "2"
+        "menuId": "4"
     },
     {
         "id": "5",
-        "src": "Screenshot (296).png",
-        "menuId": "3"
+        "src": "geography.png",
+        "menuId": "0"
     },
     {
         "id": "6",
         "src": "Screenshot (297).png",
-        "menuId": "1"
+        "menuId": "2"
     }
 ] }

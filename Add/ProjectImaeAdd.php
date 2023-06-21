@@ -53,7 +53,7 @@ if (isset($_POST['imageId']) && isset($_POST['git']) && isset($_POST['site']) &&
 <div class="mb-3">
   <label for="exampleInputEmail1" class="form-label">Image</label>
   <select class="form-select" aria-label="Default select example" name="imageId">
-  <option >Choose</option>
+  <option >0</option>
     <?php 
     $arr2=array();
     $arr2=array();

@@ -50,44 +50,48 @@ if(mysqli_num_rows($result)>0){
 
 <input type="hidden" name="id" value="<?=$id?>">
   <div class="text-center col"><button type="submit" class="btn btn-primary" name="submit">Submit</button>
-   <button type="submit" class="btn btn-danger"><a href="../portfolioImage.php" class="text-light text-decoration-none">Go Back</a></button></div>
+   <button type="submit" class="btn btn-danger"><a href="../projectImage.php" class="text-light text-decoration-none">Go Back</a></button></div>
 </form>
  <?php
 
-  if(isset($_POST['submit'])){
-	$git=$_POST['git'];
-	$site=$_POST['site'];
-	$id2=$_POST['id'];
-	$menuId=$_POST['menuId'];
-	$oldImage=$_POST['src'];
-	if(isset($_FILES['file']) && $_FILES["file"]["name"]!=="" ){
-		$temp=$_FILES["file"]["tmp_name"];
-		$name=$_FILES["file"]["name"];
-		$path="../build/assets/img/" .$name;
-		$size=$_FILES["file"]["size"];
-		$type=strtolower(pathinfo($path, PATHINFO_EXTENSION));
-		unlink("../build/assets/img/".$oldImage."");
-		$ok=1;
-		$check=getimagesize($temp);
-		if($check == false  || file_exists($path) || $size > 500000 ) $ok=0;
-		if ($ok)
-			move_uploaded_file($temp, $path);
-			$sql='UPDATE `portfoliomenu` SET `Upload_id`='.$menuId.',`name`='.$name.',`git`='.$git.',`site`='.$site.' WHERE `id`="'.$id2.'"'; 
-			$result=mysqli_query($conn,$sql);
-			if($result>0){
-				header("Location: ../portfolioImage.php");
-			}
-		
-	 }
-	else{
-		$sql='UPDATE `portfoliomenu` SET `menuId`="'.$menuId.'",`git`='.$git.',`site`='.$site.' WHERE `id`="'.$id2.'"';
-		$result=mysqli_query($conn,$sql);
-		if($result>0){
-			header("Location: ../portfolioImage.php");
-		}
+if (isset($_POST['submit'])) {
+	$git = $_POST['git'];
+	$site = $_POST['site'];
+	$id2 = $_POST['id'];
+	$menuId = $_POST['menuId'];
+	$oldImage = $_POST['src'];
+   
+	if (isset($_FILES['file']) && $_FILES["file"]["name"] !== "") {
+	  $temp = $_FILES["file"]["tmp_name"];
+	  $name = $_FILES["file"]["name"];
+	  $path = "../build/assets/img/" . $name;
+	  $size = $_FILES["file"]["size"];
+	  $type = strtolower(pathinfo($path, PATHINFO_EXTENSION));
+	  unlink("../build/assets/img/" . $oldImage);
+	  $ok = 1;
+	  $check = getimagesize($temp);
+   
+	  if ($check == false || file_exists($path) || $size > 500000) {
+	    $ok = 0;
+	  }
+   
+	  if ($ok) {
+	    move_uploaded_file($temp, $path);
+	    $sql = 'UPDATE `portfoliomenu` SET `Upload_id`="' . $menuId . '", `name`="' . $name . '", `git`="' . $git . '", `site`="' . $site . '" WHERE `id`="' . $id2 . '"';
+	    $result = mysqli_query($conn, $sql);
+	    if ($result > 0) {
+		 header("Location: ../projectImage.php");
+	    }
+	  }
+	} else {
+	  $sql = 'UPDATE `portfoliomenu` SET `Upload_id`="' . $menuId . '", `git`="' . $git . '", `site`="' . $site . '" WHERE `id`="' . $id2 . '"';
+	  $result = mysqli_query($conn, $sql);
+	  if ($result > 0) {
+	    header("Location: ../projectImage.php");
+	  }
 	}
-	
- }
+   }
+   
  ?>
 </body>
 </html>
