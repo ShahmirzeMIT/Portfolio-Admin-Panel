@@ -719,5 +719,33 @@
         "az": "PHP",
         "en": "PHP",
         "ru": "PHP"
+    },
+    {
+        "id": "105",
+        "name": "slideSite",
+        "az": "https:\/\/www.linkedin.com\/in\/vahidmuellim\/",
+        "en": "https:\/\/www.linkedin.com\/in\/vahidmuellim\/",
+        "ru": "https:\/\/www.linkedin.com\/in\/vahidmuellim\/"
+    },
+    {
+        "id": "106",
+        "name": "slideIcon",
+        "az": "BsLinkedin",
+        "en": "BsLinkedin",
+        "ru": "BsLinkedin"
+    },
+    {
+        "id": "108",
+        "name": "slideSite2",
+        "az": "https:\/\/www.linkedin.com\/in\/baxtiyar-mammadyarov\/",
+        "en": "https:\/\/www.linkedin.com\/in\/baxtiyar-mammadyarov\/",
+        "ru": "https:\/\/www.linkedin.com\/in\/baxtiyar-mammadyarov\/"
+    },
+    {
+        "id": "109",
+        "name": "slideIcon2",
+        "az": "BsLinkedin",
+        "en": "BsLinkedin",
+        "ru": "BsLinkedin"
     }
 ] }

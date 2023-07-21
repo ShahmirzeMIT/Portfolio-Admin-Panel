@@ -4,13 +4,17 @@
         "name": "Vahid Qasimov",
         "src": "vahid.jpg",
         "text": "71",
-        "workplace": "72"
+        "workplace": "72",
+        "link": "105",
+        "icon": "106"
     },
     {
         "id": "2",
         "name": "Baxtiyar Mammadyarov",
         "src": "greencard.jpeg",
         "text": "101",
-        "workplace": "102"
+        "workplace": "102",
+        "link": "107",
+        "icon": "108"
     }
 ] }

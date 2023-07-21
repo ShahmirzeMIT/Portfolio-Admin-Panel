@@ -11,7 +11,10 @@ include('header.php');
 			<th scope="col">name</th>
 			<th scope="col">src</th>
 			<th scope="col">text</th>
+			<th scope="col">icon</th>
+			<th scope="col">link</th>
 			<th scope="col">workplace</th>
+			
 		</tr>
 		</thead>
 		<tbody>
@@ -24,6 +27,8 @@ include('header.php');
 						$name=$row['name'];
 						$src=$row['src'];
 						$text=$row['text'];
+						$link=$row['link'];
+						$icon=$row['icon'];
 						$workplace=$row['workplace'];
 						echo '
 						<tr>
@@ -31,6 +36,8 @@ include('header.php');
 							<td>'.$name.'</td>
 							<td><img src="image/'.$src.'" style="width:300px; height:300px;object-fit: contain;margin: 0 auto !important;"/></td>
 							<td>'.$text.'</td>
+							<td>'.$link.'</td>
+							<td>'.$icon.'</td>
 							<td>'.$workplace.'</td><td><a href="./update/slideUpdate.php?id='.$id.'" class="px-3 "><i class="fa-solid fa-pen-to-square text-success"></i></a></td>
 						</tr>
 						';

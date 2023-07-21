@@ -23,7 +23,7 @@ if (isset($_POST['imageId']) && isset($_POST['git']) && isset($_POST['site']) &&
 
     if ($ok) {
       move_uploaded_file($temp, $path);
-      $sql2 = "INSERT INTO `portfoliomenu`(`id`, `Upload_id`, `name`, `git`, `site`) VALUES (NULL, '$imageId', '$name', '$git', '$site')";
+      $sql2 = 'INSERT INTO `portfoliomenu`(`id`, `Upload_id`, `name`, `git`, `site`) VALUES (NULL, "'.$imageId.'", "'.$name.'", "'.$git.'", "'.$site.'")';
       $result2 = mysqli_query($conn, $sql2);
     }
   } else {

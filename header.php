@@ -41,6 +41,8 @@
 				  </li>
 				  <li class="nav-item">
 					<a class="nav-link" href="projectImage.php">Project Image</a>
+				  </li><li class="nav-item">
+					<a class="nav-link" href="pVideo.php">Video</a>
 				  </li>
 			    </ul>
 			  </div>
