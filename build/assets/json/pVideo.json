@@ -40,5 +40,19 @@
         "name": "billionare.mp4",
         "git": "https:\/\/github.com\/ShahmirzeMIT\/billionare",
         "site": "https:\/\/billionare.vercel.app\/"
+    },
+    {
+        "id": "8",
+        "Uplaod_id": "2",
+        "name": "Screen recording 1 (online-video-cutter.com).mp4",
+        "git": "https:\/\/github.com\/ShahmirzeMIT\/booking-panel",
+        "site": "https:\/\/booking-panel-two.vercel.app\/"
+    },
+    {
+        "id": "9",
+        "Uplaod_id": "2",
+        "name": "Screen recording 1 (online-video-cutter.com) (2).mp4",
+        "git": "https:\/\/github.com\/ShahmirzeMIT\/brushUpOn\/tree\/main\/project%201",
+        "site": "file:\/\/\/C:\/Users\/acer\/Desktop\/reklamda\/project%201\/index.html"
     }
 ] }
