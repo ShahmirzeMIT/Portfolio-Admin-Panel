@@ -3,7 +3,7 @@ $message="";
 if(isset($_POST['name']) && isset($_POST['percent'])){
   $name=$_POST['name'];
   $percent=$_POST['percent'];
-  $sql='SELECT * FROM `skill` WHERE `name`="'.$name.'" OR `percent`="'.$percent.'" ';
+  $sql='SELECT * FROM `skill` WHERE `name`="'.$name.'" ';
   $result=mysqli_query($conn,$sql);
   if(mysqli_num_rows($result)<=0){
     if($name!="" && $percent!="" ){

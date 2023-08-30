@@ -747,5 +747,40 @@
         "az": "BsLinkedin",
         "en": "BsLinkedin",
         "ru": "BsLinkedin"
+    },
+    {
+        "id": "110",
+        "name": "skillNextJS",
+        "az": "Next.js",
+        "en": "Next.js",
+        "ru": "Next.js"
+    },
+    {
+        "id": "111",
+        "name": "skillLaravel",
+        "az": "Laravel",
+        "en": "Laravel",
+        "ru": "Laravel"
+    },
+    {
+        "id": "112",
+        "name": "slideRef3",
+        "az": "Həqiqətən Sako o qədər çalışır ki, buna görə də mənim fikrimcə o, uğurlu proqram tərtibatçısı olacaq. bir gün onun işini quracaq, istədiyini alacaq",
+        "en": "Truly Sako is hard working so much that's why in my opinion, he will become like successful software developer. one or other day he will set up his business he will receive what he wants",
+        "ru": "На самом деле Сако так много работает, поэтому, на мой взгляд, он станет успешным разработчиком программного обеспечения. рано или поздно он наладит ее бизнес он получит то, что она хочет"
+    },
+    {
+        "id": "113",
+        "name": "slideWplace3",
+        "az": "Sənan Hüseynzadə School",
+        "en": "Sənan Hüseynzadə  School",
+        "ru": "Сэнана Гусейнзаде School"
+    },
+    {
+        "id": "114",
+        "name": "slideSite3",
+        "az": "bos",
+        "en": "empty",
+        "ru": "пустой"
     }
 ] }

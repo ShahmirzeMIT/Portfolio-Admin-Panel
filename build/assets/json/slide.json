@@ -2,7 +2,7 @@
     {
         "id": "1",
         "name": "Vahid Qasimov",
-        "src": "vahid.jpg",
+        "src": "download-_10_.jpg",
         "text": "71",
         "workplace": "72",
         "link": "105",
@@ -14,7 +14,16 @@
         "src": "greencard.jpeg",
         "text": "101",
         "workplace": "102",
-        "link": "107",
-        "icon": "108"
+        "link": "108",
+        "icon": "109"
+    },
+    {
+        "id": "3",
+        "name": "Əhəd",
+        "src": "ehed.png",
+        "text": "112",
+        "workplace": "113",
+        "link": "114",
+        "icon": ""
     }
 ] }
