@@ -1,22 +1,5 @@
 <?php include("../db.php");
-$message="";
-if(isset($_POST['name']) && isset($_POST['place']) && isset($_POST['period']) && isset($_POST['description'])){
-  $name=$_POST['name'];
-  $place=$_POST['place'];
-  $period=$_POST['period'];
-  $description=$_POST['description'];
-  $sql='SELECT * FROM `experience` WHERE `name`="'.$name.'" AND `place`="'.$place.'" AND `description`="'.$description.'"';
-  $result=mysqli_query($conn,$sql);
-  if(mysqli_num_rows($result)<=0){
-    if($name!="" && $place!="" && $period!="" && $description!="" ){
-      $sql2='INSERT INTO `experience`(`id`, `name`, `place`, `period`, `description`) VALUES (NULL,"'.$name.'","'.$place.'","'.$period.'","'.$description.'")';
-      $result2=mysqli_query($conn,$sql2);
-    }
-  else $message="butun Secimleri yaz";
-  }
-  else  $message="Artiq bu fieldi elave etmisen";
 
-}
 ?>
 
 <!DOCTYPE html>
