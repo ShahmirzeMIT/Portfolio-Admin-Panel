@@ -1,4 +1,22 @@
 <?php include("../db.php");
+$message="";
+if(isset($_POST['name']) && isset($_POST['place']) && isset($_POST['period']) && isset($_POST['description'])){
+  $name=$_POST['name'];
+  $place=$_POST['place'];
+  $period=$_POST['period'];
+  $description=$_POST['description'];
+  $sql='SELECT * FROM `experience` WHERE `name`="'.$name.'" AND `place`="'.$place.'" AND `description`="'.$description.'"';
+  $result=mysqli_query($conn,$sql);
+  if(mysqli_num_rows($result)<=0){
+    if($name!="" && $place!="" && $period!="" && $description!="" ){
+      $sql2='INSERT INTO `experience`(`id`, `name`, `place`, `period`, `description`) VALUES (NULL,"'.$name.'","'.$place.'","'.$period.'","'.$description.'")';
+      $result2=mysqli_query($conn,$sql2);
+    }
+  else $message="butun Secimleri yaz";
+  }
+  else  $message="Artiq bu fieldi elave etmisen";
+
+}
 ?>
 
 <!DOCTYPE html>
@@ -15,58 +33,12 @@
 <form class="wd30" method="post">
   <div class="mb-3">
   <label for="exampleInputEmail1" class="form-label">Name</label>
-  <select class="form-select" aria-label="Default select example" name="name">
-  <option >Choose</option>
-    <?php 
-    $arr2=array();
-    $idAdd=array();
-    $name2="";
-    $write="";
-    $sql='SELECT * FROM `translation` WHERE `name` LIKE "edu%"';
-    $result=mysqli_query($conn,$sql);
-    if(mysqli_num_rows($result)>0){
-      while ($row=mysqli_fetch_assoc($result)) {
-        $id2=$row['id'];
-        $name2=$row['name'];
-        array_push($idAdd,$id2);
-        array_push($arr2,$name2);
-      }
-       }
-       for ($i=0; $i < count($arr2); $i++) { 
-        echo '<option value="'.$idAdd[$i].'">'.$arr2[$i].'</option>';
-       }
-    
-      
-    ?>
-</select>
+    <input type="text" class="form-control" id="exampleInputEmail1" name="name" >
   </div>
   <div class="mb-3">
 
   <label for="exampleInputEmail1" class="form-label">Place</label>
-  <select class="form-select" aria-label="Default select example" name="place">
-  <option >Choose</option>
-    <?php 
-    $arr2=array();
-    $idAdd=array();
-    $name2="";
-    $write="";
-    $sql='SELECT * FROM `translation` WHERE `name` LIKE "edu%"';
-    $result=mysqli_query($conn,$sql);
-    if(mysqli_num_rows($result)>0){
-      while ($row=mysqli_fetch_assoc($result)) {
-        $id2=$row['id'];
-        $name2=$row['name'];
-        array_push($idAdd,$id2);
-        array_push($arr2,$name2);
-      }
-       }
-       for ($i=0; $i < count($arr2); $i++) { 
-        echo '<option value="'.$idAdd[$i].'">'.$arr2[$i].'</option>';
-       }
-    
-    
-    ?>
-</select>
+    <input type="text" class="form-control" id="exampleInputEmail1" name="place" >
   </div>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Period</label>
@@ -74,29 +46,7 @@
   </div>
   <div class="mb-3">
   <label for="exampleInputEmail1" class="form-label">Description</label>
-  <select class="form-select" aria-label="Default select example" name="description">
-  <option >Choose</option>
-    <?php 
-    $arr2=array();
-    $arr2=array();
-    $idAdd=array();
-    $name2="";
-    $write="";
-    $sql='SELECT * FROM `translation` WHERE `name` LIKE "edu%"';
-    $result=mysqli_query($conn,$sql);
-    if(mysqli_num_rows($result)>0){
-      while ($row=mysqli_fetch_assoc($result)) {
-        $id2=$row['id'];
-        $name2=$row['name'];
-        array_push($idAdd,$id2);
-        array_push($arr2,$name2);
-      }
-       }
-       for ($i=0; $i < count($arr2); $i++) { 
-        echo '<option value="'.$idAdd[$i].'">'.$arr2[$i].'</option>';
-       }
-    ?>
-</select>
+    <input type="text" class="form-control" id="exampleInputEmail1" name="description" >
   </div>
 
  
