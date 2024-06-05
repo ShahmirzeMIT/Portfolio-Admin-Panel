@@ -15,8 +15,31 @@
 <body>
 <form class="wd30" method="post">
   <div class="mb-3">
-  <label for="exampleInputEmail1" class="form-label">Name</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" name="name" >
+   <label for="exampleInputEmail1" class="form-label">Name</label>
+  <select class="form-select" aria-label="Default select example" name="name">
+  <option >Choose</option>
+    <?php 
+    $arr2=array();
+    $idAdd=array();
+    $name2="";
+    $write="";
+    $sql='SELECT * FROM `translation` WHERE `name` LIKE "edu%"';
+    $result=mysqli_query($conn,$sql);
+    if(mysqli_num_rows($result)>0){
+      while ($row=mysqli_fetch_assoc($result)) {
+        $id2=$row['id'];
+        $name2=$row['name'];
+        array_push($idAdd,$id2);
+        array_push($arr2,$name2);
+      }
+       }
+       for ($i=0; $i < count($arr2); $i++) { 
+        echo '<option value="'.$idAdd[$i].'">'.$arr2[$i].'</option>';
+       }
+    
+      
+    ?>
+</select>
   </div>
   <div class="mb-3">
 
