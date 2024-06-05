@@ -1,4 +1,17 @@
 <?php include("../db.php");
+
+$message="";
+if(isset($_POST['name']) && isset($_POST['langAz']) && isset($_POST['langEn']) && isset($_POST['langRu'])){
+	$name=$_POST['name'];
+	$langAz=$_POST['langAz'];
+	$langEn=$_POST['langEn'];
+	$langRu=$_POST['langRu'];
+	if($name!=="" && $langAz!=="" && $langEn!=="" && $langRu!==""){
+			$sql='INSERT INTO `translation`(`id`, `name`, `az`, `en`, `ru`) VALUES (NULL,"'.$name.'","'.$langAz.'","'.$langEn.'","'.$langRu.'")';
+			$result=mysqli_query($conn,$sql);
+	}
+	else $message="Butun Xanalari Doldur";
+}
 ?>
 
 <!DOCTYPE html>

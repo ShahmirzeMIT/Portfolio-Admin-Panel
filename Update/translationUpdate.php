@@ -8,8 +8,7 @@ if(mysqli_num_rows($result)>0){
 		$az=$row['az'];
 		$en=$row['en'];
 		$ru=$row['ru'];
-	}
-}
+	}}
 
 ?>
 
